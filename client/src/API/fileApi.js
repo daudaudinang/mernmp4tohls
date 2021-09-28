@@ -4,8 +4,8 @@ import axiosClient from './axiosClient';
 const BASEURL = process.env.REACT_APP_BASE_URL_API_DATA_SERVER;
 
 const FileApi = {
-    getFile: () => {
-        return axiosClient.post(BASEURL + '/getFile', { 
+    getListFile: () => {
+        return axiosClient.post(BASEURL + '/getListFile', { 
             
         });
     },

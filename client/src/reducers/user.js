@@ -17,7 +17,7 @@ const userReducer = (state = initialState, action) => {
 
             return {
                 ...state,
-                listFile: newList
+                listUser: newList
             }
         }
         case 'RESET_LIST_USER':{

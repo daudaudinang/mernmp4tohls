@@ -1,0 +1,7 @@
+### START LOGGING ###
+[29/09/2021, 02:04:55][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 02:04:55][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 02:04:55][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 02:22:43][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 02:22:43][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 02:22:43][server][success] Start Server: DataServer listening on: 3002

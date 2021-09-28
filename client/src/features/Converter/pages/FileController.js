@@ -16,7 +16,7 @@ function FileController(props) {
 
     useEffect(() => {
         const fetchData = async () => {
-            await FileApi.getFile()
+            await FileApi.getListFile()
             .then((response) => {
                 if(response.status === 1) {
                     const actionSaveFile = saveFile(response.listFile);

@@ -39,7 +39,7 @@ function UserController(props) {
             })
         }
         fetchData();
-   }, [changeData]);
+    }, [changeData]);
 
     const handleAdd = async (dataUserAdd) => {
         await userApi.addUser(dataUserAdd)

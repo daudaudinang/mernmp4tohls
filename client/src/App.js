@@ -32,11 +32,11 @@ function App() {
       const refreshToken = async () => {
         authApi.refreshToken()
           .then((response) => {
-            if(response.access_token) {
+            if(response.status === 1) {
               sessionStorage.setItem("access_token", response.access_token);
               setAccess_token(response.access_token);
             }
-            else console.log("Access Token Error!");
+            else console.log("Refresh Token Error!");
           })
           .catch((err) => console.log(err));
       }
@@ -46,20 +46,18 @@ function App() {
   },[])
 
   useEffect(() => {
-    if(sessionStorage.getItem("refresh_token")) {
-      setTimeout(() => {
-        authApi.refreshToken()
-        .then((response) => {
-          if(response.access_token) {
-            sessionStorage.setItem("access_token", response.access_token);
-            setAccess_token(response.access_token);
-          }
-          else console.log("Access Token Error!");
-        })
-        .catch((err) => console.log(err));
-      }, 30000);
-    }
-  }, [isLogin, access_token])
+    setTimeout(() => {
+      authApi.refreshToken()
+      .then((response) => {
+        if(response.status === 1) {
+          sessionStorage.setItem("access_token", response.access_token);
+          setAccess_token(response.access_token);
+        }
+        else console.log("Refresh Token Error!");
+      })
+      .catch((err) => console.log(err));
+    }, 30000);
+  }, [isLogin, access_token]);
 
   const handleLogin = async (dataLogin) => {
     await authApi.login(dataLogin)
@@ -73,6 +71,7 @@ function App() {
           // reset Message báo đăng nhập nếu đăng nhập thành công
           setMessage("");
           setAccount_type(response.account_type);
+          console.log(response);
 
           sessionStorage.setItem("isLogin", true);
           sessionStorage.setItem("account_type", response.account_type);

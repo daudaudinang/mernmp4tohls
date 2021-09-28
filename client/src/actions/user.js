@@ -1,14 +1,14 @@
-export const saveUser = (listFile) => {
+export const saveUser = (listUser) => {
     return {
         type: 'SAVE_USER',
-        payload: listFile,
+        payload: listUser,
     }
 }
 
-export const removeUser = (newList) => {
+export const removeUser = (listUser) => {
     return {
         type: 'REMOVE_USER',
-        payload: newList
+        payload: listUser
     }
 }
 
