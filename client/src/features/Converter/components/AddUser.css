@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    flex-wrap: nowrap;
+}
+
+label {
+    padding-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+input {
+    height: 100%;
+}
+
+button {
+    height: 100%;
+}
