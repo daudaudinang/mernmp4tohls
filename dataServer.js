@@ -13,7 +13,8 @@ import File from "./model/File.js";
 import User from "./model/User.js";
 import authenToken from "./middleware/authenToken.js";
 import writeLog from './my_modules/writeLog.js';
-import os from 'os-utils';
+import osu from 'node-os-utils';
+var cpu = osu.cpu;
 
 dotenv.config();
 
@@ -25,13 +26,16 @@ async function main() {
   );
 }
 
-export default function getCpuDataServer(){
-  let value = 0;
-  os.cpuUsage(function(v){
-    value = v*100;
-  });
-  return value;
+export default async function getCpuDataServer(){
+  return await cpu.usage().then(data => data);
 }
+// export default function getCpuDataServer(){
+//   let value = 0;
+//   os.cpuUsage(function(v){
+//     value = v*100;
+//   });
+//   return value;
+// }
 
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {

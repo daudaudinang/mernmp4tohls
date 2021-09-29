@@ -6,6 +6,9 @@ import mongoose from "mongoose";
 import User from "./model/User.js";
 import authenToken from "./middleware/authenToken.js";
 import writeLog from './my_modules/writeLog.js';
+import { Telegraf } from "telegraf";
+import osu from 'node-os-utils';
+var cpu = osu.cpu;
 
 main().catch((err) => writeLog("authServer","database","error","Connect Database",err));
 
@@ -15,13 +18,30 @@ async function main() {
   );
 }
 
-export default function getCpuAuthServer(){
-  let value = 0;
-  os.cpuUsage(function(v){
-    value = v*100;
-  });
-  return value;
+export default async function getCpuAuthServer(){
+  return await cpu.usage().then(data => data);
 }
+
+// const bot = new Telegraf("2040588108:AAGy3muuHzrr_nVpEt8188oj0SXgrdYJV9Y");
+// bot.command("start", (ctx) => {
+//   bot.telegram.sendMessage(
+//     ctx.chat.id,
+//     "Xin chào tới Logging Bot, nếu Server của bạn quá tải, tôi sẽ thông báo cho bạn!",
+//     {}
+//   );
+
+//   setInterval(async () => {
+//     if(await getCpuAuthServer() >= 90) {
+//         bot.telegram.sendMessage(
+//           ctx.chat.id,
+//           "AuthServer của bạn quá tải!",
+//           {}
+//         );
+//     }
+//   }, 5000);
+// });
+
+// bot.launch();
 
 dotenv.config();
 

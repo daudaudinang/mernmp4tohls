@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sendLog":"node sendLog.js",
+    "sendLog": "node sendLog.js",
     "authServer": "node authServer.js",
     "dataServer": "node dataServer.js",
     "userServer": "node userServer.js",

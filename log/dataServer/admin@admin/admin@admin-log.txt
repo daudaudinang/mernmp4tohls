@@ -215,3 +215,120 @@
 
 ######[29/09/2021, 17:32:54][admin@admin][notification] REQUEST: GET LIST FILE
 [29/09/2021, 17:32:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:27:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:27:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:28:03][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 22:29:01][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 22:29:01][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:29:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:43:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:43:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:44:01][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 22:45:00][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 22:45:00][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:45:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:45:33][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:34][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:34][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:35][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:35][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:36][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 22:45:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 22:45:38][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 22:45:38][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:40][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:41][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 22:45:42][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 22:46:11][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:46:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 22:46:17][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 22:47:13][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 22:47:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 22:47:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:02:29][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:02:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:02:36][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 23:03:33][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 23:03:33][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:03:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:09:06][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:09:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:09:13][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 23:10:16][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 23:10:16][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 23:10:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 23:23:33][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:34][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:34][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:35][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:35][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:35][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:35][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:36][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:36][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:37][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:37][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:37][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:37][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:38][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:38][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:39][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:39][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:39][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:40][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:40][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:41][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:41][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[29/09/2021, 23:23:41][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[29/09/2021, 23:23:42][admin@admin][notification] REQUEST: REMOVE FILE
+[29/09/2021, 23:23:45][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:45][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:45][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+[29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!

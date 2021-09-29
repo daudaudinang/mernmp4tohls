@@ -8,7 +8,8 @@ import mongoose from "mongoose";
 import authenToken from "./middleware/authenToken.js";
 import fs from "fs";
 import writeLog from './my_modules/writeLog.js';
-import os from 'os-utils';
+import osu from 'node-os-utils';
+var cpu = osu.cpu;
 
 dotenv.config();
 
@@ -20,13 +21,16 @@ async function main() {
   );
 }
 
-export default function getCpuUserServer(){
-  let value = 0;
-  os.cpuUsage(function(v){
-    value = v*100;
-  });
-  return value;
+export default async function getCpuUserServer(){
+  return await cpu.usage().then(data => data);
 }
+// export default function getCpuUserServer(){
+//   let value = 0;
+//   os.cpuUsage(function(v){
+//     value = v*100;
+//   });
+//   return value;
+// }
 
 const app = express();
 
