@@ -13,6 +13,7 @@ import File from "./model/File.js";
 import User from "./model/User.js";
 import authenToken from "./middleware/authenToken.js";
 import writeLog from './my_modules/writeLog.js';
+import os from 'os-utils';
 
 dotenv.config();
 
@@ -22,6 +23,14 @@ async function main() {
   await mongoose.connect(
     "mongodb+srv://admin:Huyhuyhuy1998@cluster0.edeoy.mongodb.net/test"
   );
+}
+
+export default function getCpuDataServer(){
+  let value = 0;
+  os.cpuUsage(function(v){
+    value = v*100;
+  });
+  return value;
 }
 
 var storage = multer.diskStorage({

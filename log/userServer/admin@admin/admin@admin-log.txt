@@ -63,3 +63,9 @@
 ######[29/09/2021, 02:23:19][admin@admin][notification] REQUEST: REMOVE A USER
 [29/09/2021, 02:23:20][admin@admin][success] Remove ListFile: Xoá người dùng khỏi database thành công!
 [29/09/2021, 02:23:20][admin@admin][success] Remove ListFile: Xoá list File người dùng hahaha đã upload thành công!
+
+######[29/09/2021, 15:36:12][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 15:36:12][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[29/09/2021, 17:02:10][admin@admin][notification] REQUEST: GET LIST USER
+[29/09/2021, 17:02:11][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

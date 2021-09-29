@@ -1,0 +1,4 @@
+### START LOGGING ###
+[29/09/2021, 17:09:30][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:10:10][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:11:10][database][error] Connect Database: MongoNetworkError: read ECONNRESET

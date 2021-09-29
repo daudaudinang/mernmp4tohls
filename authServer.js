@@ -15,6 +15,14 @@ async function main() {
   );
 }
 
+export default function getCpuAuthServer(){
+  let value = 0;
+  os.cpuUsage(function(v){
+    value = v*100;
+  });
+  return value;
+}
+
 dotenv.config();
 
 const app = express();

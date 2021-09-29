@@ -5,3 +5,142 @@
 [29/09/2021, 02:22:43][server][success] Start Server: AuthServer listening on: 3001
 [29/09/2021, 02:22:43][server][success] Start Server: User Server listening on: 3003
 [29/09/2021, 02:22:43][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 10:46:42][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 10:56:56][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:09:25][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:11:55][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:27:38][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 11:27:38][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:27:38][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 12:16:19][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 12:16:19][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 12:16:19][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 13:36:50][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 13:40:28][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:00:23][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:00:39][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:04:42][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:28:36][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:28:47][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:28:47][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:28:47][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:30:07][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:30:07][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:30:07][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:36:51][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:36:51][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:36:51][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:37:48][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:37:48][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:37:48][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:39:48][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:40:11][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:48:43][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:51:20][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:05:41][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:05:41][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:05:41][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:06:01][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:06:01][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:06:01][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:08:20][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:08:20][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:08:20][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:10:05][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:10:05][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:10:05][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:13:19][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:13:19][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:13:19][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:16:09][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:16:09][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:16:09][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:17:16][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:17:16][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:17:16][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:23:56][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:23:56][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:23:56][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:25:30][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:25:30][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:25:30][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:26:01][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:26:01][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:26:01][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:31:22][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:31:22][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:31:22][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:34:57][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:34:57][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:34:57][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:37:24][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:37:24][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:37:24][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:49:57][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:49:57][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:49:57][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:51:45][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:51:45][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:51:45][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:53:38][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:53:38][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:53:38][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:01:37][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:01:37][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:01:37][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:06:35][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:06:35][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:06:35][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:11:18][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:11:18][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:11:18][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:27:17][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:27:17][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:27:17][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:28:16][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:28:16][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:28:16][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:33:33][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:33:33][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:33:33][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:35:20][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:35:20][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:35:20][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:39:21][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:39:21][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:39:21][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:41:54][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:41:54][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:41:54][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:00:54][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:00:55][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:01:33][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:01:34][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:01:34][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:03:25][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:03:25][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:03:25][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:04:59][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:04:59][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:04:59][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:07:58][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:07:58][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:07:58][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:09:13][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:09:13][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:09:13][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:10:08][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:10:08][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:10:08][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:11:09][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:11:09][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:11:09][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:12:27][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:12:27][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:12:27][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:27:56][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:27:56][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:27:56][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:35:55][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:35:55][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:35:55][server][success] Start Server: User Server listening on: 3003

@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:2.041667,
+http://localhost:3002/upload/admin@admin/segment/1632906166473_tos-teaser.mp4-0.ts
+#EXTINF:1.916667,
+http://localhost:3002/upload/admin@admin/segment/1632906166473_tos-teaser.mp4-1.ts

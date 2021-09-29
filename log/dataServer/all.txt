@@ -29,3 +29,338 @@
 
 ######[29/09/2021, 02:23:28][admin@admin][notification] REQUEST: GET LIST FILE
 [29/09/2021, 02:23:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 10:46:42][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 10:56:56][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:09:25][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:11:55][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:27:38][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 11:27:38][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 11:27:38][server][success] Start Server: DataServer listening on: 3002
+
+######[29/09/2021, 11:28:03][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:28:04][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:29:11][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 11:29:35][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 11:29:35][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:29:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:22][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:34:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:23][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:34:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:24][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:34:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:34:30][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:34:35][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:34:41][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 11:35:30][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:35:38][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:35:40][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 11:35:40][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:35:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:11][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:16][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:21][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:26][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:36:26][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:36:53][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:00][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:06][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:18][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:23][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 11:37:53][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:37:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 11:37:57][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 11:38:09][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:28][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:44][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:47][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 11:38:55][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 11:38:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 11:38:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 12:16:19][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 12:16:19][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 12:16:19][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 13:36:50][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 13:40:28][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:00:23][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:00:39][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:04:42][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:28:36][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:28:47][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:28:47][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:28:47][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:30:07][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:30:07][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:30:07][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:36:51][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:36:51][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:36:51][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:37:48][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:37:48][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 14:37:48][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:39:48][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:40:11][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 14:48:43][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 14:51:20][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:05:41][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:05:41][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:05:41][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:06:01][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:06:01][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:06:01][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:08:20][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:08:20][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:08:20][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:10:05][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:10:05][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:10:05][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:13:19][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:13:19][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:13:19][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:16:09][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:16:09][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:16:09][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:17:16][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:17:16][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:17:16][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:23:56][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:23:56][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:23:56][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:25:30][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:25:30][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:25:30][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:26:01][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:26:01][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:26:01][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:31:22][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:31:22][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:31:22][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:34:57][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:34:57][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:34:57][server][success] Start Server: User Server listening on: 3003
+
+######[29/09/2021, 15:36:09][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 15:36:10][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 15:36:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 15:36:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 15:37:24][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:37:24][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:37:24][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:49:57][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:49:57][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:49:57][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:51:45][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:51:45][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:51:45][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 15:53:38][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 15:53:38][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 15:53:38][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:01:37][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:01:37][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:01:37][server][success] Start Server: User Server listening on: 3003
+
+######[29/09/2021, 16:01:54][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:01:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:09][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:09][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:10][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:12][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:15][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:02:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:02:26][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:31][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:36][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:41][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:46][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:02:51][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 16:06:35][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:06:35][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:06:35][server][success] Start Server: User Server listening on: 3003
+
+######[29/09/2021, 16:06:50][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:06:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:06:54][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:06:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:06:58][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:06:59][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:07:06][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:07:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:07:13][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:07:19][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:07:24][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[29/09/2021, 16:07:29][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 16:08:27][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 16:08:44][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 16:08:48][admin@admin][success] Upload File: Upload và convert file thành công!
+[29/09/2021, 16:08:50][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 16:08:50][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:08:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 16:10:04][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 16:10:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 16:11:18][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:11:18][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:11:18][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:27:17][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:27:17][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:27:17][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:28:16][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:28:16][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:28:16][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:33:33][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:33:33][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:33:33][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:35:20][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:35:20][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:35:20][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:39:21][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:39:21][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:39:21][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 16:41:54][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 16:41:54][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 16:41:54][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:00:54][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:00:55][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:01:33][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:01:34][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:01:34][server][success] Start Server: AuthServer listening on: 3001
+
+######[29/09/2021, 17:01:39][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:01:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:05][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:12][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:13][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:14][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:02:31][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:02:56][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:02:56][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:02:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 17:03:25][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:03:25][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:03:25][server][success] Start Server: User Server listening on: 3003
+
+######[29/09/2021, 17:04:02][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:04:03][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:04:07][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:04:33][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:04:33][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:04:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 17:04:59][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:04:59][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:04:59][server][success] Start Server: DataServer listening on: 3002
+
+######[29/09/2021, 17:05:14][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:05:15][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:05:24][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:05:49][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:05:50][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:05:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:06:03][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:06:27][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:06:27][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:06:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 17:07:58][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:07:58][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:07:58][server][success] Start Server: DataServer listening on: 3002
+
+######[29/09/2021, 17:08:24][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:08:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:08:35][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:09:13][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:09:13][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:09:13][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:09:30][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:10:08][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:10:08][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:10:08][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:10:10][database][error] Connect Database: MongoNetworkError: connection 1 to 34.197.57.19:27017 closed
+[29/09/2021, 17:11:09][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:11:09][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:11:09][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:11:10][database][error] Connect Database: MongoNetworkError: read ECONNRESET
+[29/09/2021, 17:12:27][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:12:27][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:12:27][server][success] Start Server: AuthServer listening on: 3001
+
+######[29/09/2021, 17:12:41][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:12:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:12:57][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:27:56][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:27:56][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:27:56][server][success] Start Server: User Server listening on: 3003
+
+######[29/09/2021, 17:31:12][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:31:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[29/09/2021, 17:32:28][admin@admin][notification] REQUEST: UPLOAD FILE
+[29/09/2021, 17:32:54][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[29/09/2021, 17:32:54][admin@admin][notification] REQUEST: GET LIST FILE
+[29/09/2021, 17:32:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[29/09/2021, 17:35:55][server][success] Start Server: DataServer listening on: 3002
+[29/09/2021, 17:35:55][server][success] Start Server: AuthServer listening on: 3001
+[29/09/2021, 17:35:55][server][success] Start Server: User Server listening on: 3003
+[29/09/2021, 17:35:55][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net
