@@ -542,3 +542,20 @@
 [29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
 [29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
 [29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+[30/09/2021, 08:48:51][server][success] Start Server: DataServer listening on: 3002
+[30/09/2021, 08:48:51][server][success] Start Server: AuthServer listening on: 3001
+[30/09/2021, 08:48:51][server][success] Start Server: User Server listening on: 3003
+
+######[30/09/2021, 08:49:23][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 08:49:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 08:49:52][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 08:50:47][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 08:50:48][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 08:50:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[30/09/2021, 10:19:04][server][success] Start Server: DataServer listening on: 3002
+[30/09/2021, 10:19:04][server][success] Start Server: AuthServer listening on: 3001
+[30/09/2021, 10:19:04][server][success] Start Server: User Server listening on: 3003
+[30/09/2021, 10:23:58][server][success] Start Server: AuthServer listening on: 3001
+[30/09/2021, 10:24:08][server][success] Start Server: DataServer listening on: 3002

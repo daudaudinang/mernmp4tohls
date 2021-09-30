@@ -29,13 +29,6 @@ async function main() {
 export default async function getCpuDataServer(){
   return await cpu.usage().then(data => data);
 }
-// export default function getCpuDataServer(){
-//   let value = 0;
-//   os.cpuUsage(function(v){
-//     value = v*100;
-//   });
-//   return value;
-// }
 
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {

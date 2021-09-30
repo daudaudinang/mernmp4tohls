@@ -44,15 +44,16 @@ bot.command("start", (ctx) => {
     var interval2 = 0;
     var interval3 = 0;
     var interval4 = 0;
+    let x = 0;
     bot.action("authServer", (ctx) => {
         clearInterval(interval2);
         clearInterval(interval3);
         clearInterval(interval4);
         interval1 = setInterval(async () => {
-            if (await getCpuAuthServer() >= 80){
+            if (await getCpuAuthServer() >= 90){
               bot.telegram.sendMessage(ctx.chat.id, "AuthServer quá tải", {});
             }
-        }, 5000);
+        }, 1000);
     });
 
     bot.action("dataServer", (ctx) => {
@@ -60,10 +61,10 @@ bot.command("start", (ctx) => {
         clearInterval(interval3);
         clearInterval(interval4);
         interval2 = setInterval(async() => {
-            if (await getCpuDataServer() >= 80) {
+            if (await getCpuDataServer() >= 90) {
               bot.telegram.sendMessage(ctx.chat.id, "DataServer quá tải", {});
             }
-        }, 5000);
+        }, 1000);
     });
 
     bot.action("userServer", (ctx) => {
@@ -71,10 +72,10 @@ bot.command("start", (ctx) => {
         clearInterval(interval2);
         clearInterval(interval4);
         interval3 = setInterval(async() => {
-            if (await getCpuUserServer() >= 80) {
+            if (await getCpuUserServer() >= 90) {
               bot.telegram.sendMessage(ctx.chat.id, "UserServer quá tải", {});
             }
-        }, 5000);
+        }, 1000);
     });
 
     bot.action("allServer", (ctx) => {
@@ -82,25 +83,25 @@ bot.command("start", (ctx) => {
         clearInterval(interval2);
         clearInterval(interval3);
         interval3 = setInterval(async() => {
-            if (await getCpuAuthServer() >= 80)
+            if (await getCpuAuthServer() >= 90)
             bot.telegram.sendMessage(ctx.chat.id, "AuthServer quá tải", {});
-            if (await getCpuDataServer() >= 80)
+            if (await getCpuDataServer() >= 90)
             bot.telegram.sendMessage(ctx.chat.id, "DataServer quá tải", {});
-            if (await getCpuUserServer() >= 80)
+            if (await getCpuUserServer() >= 90)
             bot.telegram.sendMessage(ctx.chat.id, "UserServer quá tải", {});
-        }, 5000);
+        }, 1000);
     });
 
     bot.command('/exit', (ctx) => {
-        clearInterval(interval1);
-        clearInterval(interval2);
-        clearInterval(interval3);
-        clearInterval(interval4);
-        // Explicit usage
-        ctx.telegram.leaveChat(ctx.message.chat.id);
-      
-        // Using context shortcut
-        ctx.leaveChat();
+      clearInterval(interval1);
+      clearInterval(interval2);
+      clearInterval(interval3);
+      clearInterval(interval4);
+      // Explicit usage
+      ctx.telegram.leaveChat(ctx.message.chat.id);
+    
+      // Using context shortcut
+      ctx.leaveChat();
     });
     
 bot.launch();

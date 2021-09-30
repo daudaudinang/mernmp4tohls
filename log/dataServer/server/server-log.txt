@@ -205,3 +205,11 @@
 [29/09/2021, 23:08:34][server][success] Start Server: DataServer listening on: 3002
 [29/09/2021, 23:08:34][server][success] Start Server: AuthServer listening on: 3001
 [29/09/2021, 23:08:34][server][success] Start Server: User Server listening on: 3003
+[30/09/2021, 08:48:51][server][success] Start Server: DataServer listening on: 3002
+[30/09/2021, 08:48:51][server][success] Start Server: AuthServer listening on: 3001
+[30/09/2021, 08:48:51][server][success] Start Server: User Server listening on: 3003
+[30/09/2021, 10:19:04][server][success] Start Server: DataServer listening on: 3002
+[30/09/2021, 10:19:04][server][success] Start Server: AuthServer listening on: 3001
+[30/09/2021, 10:19:04][server][success] Start Server: User Server listening on: 3003
+[30/09/2021, 10:23:58][server][success] Start Server: AuthServer listening on: 3001
+[30/09/2021, 10:24:08][server][success] Start Server: DataServer listening on: 3002

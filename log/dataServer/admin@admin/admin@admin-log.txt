@@ -332,3 +332,12 @@
 [29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
 [29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
 [29/09/2021, 23:23:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[30/09/2021, 08:49:23][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 08:49:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[30/09/2021, 08:49:52][admin@admin][notification] REQUEST: UPLOAD FILE
+[30/09/2021, 08:50:47][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[30/09/2021, 08:50:48][admin@admin][notification] REQUEST: GET LIST FILE
+[30/09/2021, 08:50:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

@@ -24,13 +24,6 @@ async function main() {
 export default async function getCpuUserServer(){
   return await cpu.usage().then(data => data);
 }
-// export default function getCpuUserServer(){
-//   let value = 0;
-//   os.cpuUsage(function(v){
-//     value = v*100;
-//   });
-//   return value;
-// }
 
 const app = express();
 
