@@ -75,3 +75,4 @@
 2021/10/01 00:37:34 [error] 12152#248: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
 2021/10/01 00:39:48 [error] 6020#6024: *140 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: nodeserver, request: "POST /uploadFile HTTP/1.1", upstream: "http://[::1]:3002/uploadFile", host: "localhost", referrer: "http://localhost/convertFile"
 2021/10/01 08:47:03 [notice] 12668#1240: signal process started
+2021/10/01 08:53:32 [notice] 9444#12392: signal process started
