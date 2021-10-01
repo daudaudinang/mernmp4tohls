@@ -53,7 +53,7 @@ app.use(express.json());
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 app.use("/upload", express.static(path.join(__dirname, "upload")));
 
-app.get("/testData", function (req, res, next) {
+app.get("/testData/testData2", function (req, res, next) {
   console.log("data Server 1");
   res.send("data Server 1");
 });

@@ -41,3 +41,90 @@
 [01/10/2021, 08:49:51][server][success] Start Server: dataServer1 listening on: 3002
 [01/10/2021, 08:50:22][database][error] Connect Database: MongooseServerSelectionError: Server selection timed out after 30000 ms
 [01/10/2021, 08:51:53][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 14:15:29][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 14:16:04][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:16:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:16:16][admin@admin][notification] REQUEST: UPLOAD FILE
+[01/10/2021, 14:17:36][admin@admin][success] Upload File: Upload và convert file thành công!
+[01/10/2021, 14:25:43][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 14:25:49][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:25:50][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:25:58][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:25:59][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:28:32][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:28:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:31:45][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:31:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:32:04][admin@admin][notification] REQUEST: REMOVE FILE
+[01/10/2021, 14:32:05][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[01/10/2021, 14:32:06][admin@admin][notification] REQUEST: REMOVE FILE
+[01/10/2021, 14:32:07][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[01/10/2021, 14:32:16][admin@admin][notification] REQUEST: UPLOAD FILE
+[01/10/2021, 14:33:15][admin@admin][success] Upload File: Upload và convert file thành công!
+[01/10/2021, 14:38:56][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 14:40:49][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 14:41:11][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:41:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:42:24][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:42:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:47:16][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:47:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:48:15][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:48:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:53:23][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:53:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 15:11:36][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 15:11:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[01/10/2021, 15:55:22][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 17:55:34][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 19:32:16][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 19:32:17][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net
+[01/10/2021, 19:33:17][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 19:37:03][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 20:22:23][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 20:22:40][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:22:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:22:44][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:22:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:26:05][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:26:06][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:26:49][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:26:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:28:44][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:28:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:30:55][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:30:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:32:20][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:32:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[01/10/2021, 20:33:19][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 20:33:54][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:33:54][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:34:56][admin@admin][notification] REQUEST: UPLOAD FILE
+[01/10/2021, 20:35:52][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[01/10/2021, 20:35:52][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:35:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

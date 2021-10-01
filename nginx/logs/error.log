@@ -76,3 +76,175 @@
 2021/10/01 00:39:48 [error] 6020#6024: *140 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host) while reading response header from upstream, client: 127.0.0.1, server: nodeserver, request: "POST /uploadFile HTTP/1.1", upstream: "http://[::1]:3002/uploadFile", host: "localhost", referrer: "http://localhost/convertFile"
 2021/10/01 08:47:03 [notice] 12668#1240: signal process started
 2021/10/01 08:53:32 [notice] 9444#12392: signal process started
+2021/10/01 14:25:30 [notice] 3028#12860: signal process started
+2021/10/01 14:28:19 [notice] 8104#9484: signal process started
+2021/10/01 14:31:28 [notice] 11304#15160: signal process started
+2021/10/01 14:40:05 [notice] 11648#8240: signal process started
+2021/10/01 14:42:06 [notice] 9124#9384: signal process started
+2021/10/01 14:46:56 [notice] 1664#4704: signal process started
+2021/10/01 14:48:00 [notice] 11920#1932: signal process started
+2021/10/01 14:49:27 [notice] 6116#13720: signal process started
+2021/10/01 14:54:46 [notice] 6892#9124: signal process started
+2021/10/01 15:03:50 [notice] 8676#12120: signal process started
+2021/10/01 15:04:36 [notice] 492#13544: signal process started
+2021/10/01 15:07:53 [notice] 9520#2936: signal process started
+2021/10/01 15:11:00 [notice] 12712#4900: signal process started
+2021/10/01 15:12:58 [notice] 2828#10172: signal process started
+2021/10/01 15:13:19 [notice] 15248#12852: signal process started
+2021/10/01 15:14:21 [notice] 6372#10632: signal process started
+2021/10/01 15:18:18 [notice] 6052#708: signal process started
+2021/10/01 15:38:43 [notice] 15764#2540: signal process started
+2021/10/01 15:41:53 [notice] 5492#16224: signal process started
+2021/10/01 15:46:15 [notice] 16368#7156: signal process started
+2021/10/01 15:51:16 [notice] 16652#16496: signal process started
+2021/10/01 15:55:19 [notice] 12416#392: signal process started
+2021/10/01 15:57:09 [notice] 10956#16900: signal process started
+2021/10/01 15:57:30 [notice] 15636#5212: signal process started
+2021/10/01 15:57:54 [notice] 15716#17264: signal process started
+2021/10/01 15:58:23 [notice] 17100#17244: signal process started
+2021/10/01 16:00:10 [emerg] 16904#5648: unknown directive "location=" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:00:11 [emerg] 6928#11524: unknown directive "location=" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:02:04 [notice] 15848#10720: signal process started
+2021/10/01 16:09:53 [notice] 16868#5620: signal process started
+2021/10/01 16:11:31 [notice] 17252#6900: signal process started
+2021/10/01 16:14:53 [notice] 16332#8564: signal process started
+2021/10/01 16:19:28 [notice] 7460#2432: signal process started
+2021/10/01 16:21:38 [emerg] 6784#15680: invalid URL prefix in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:21:39 [emerg] 12812#10268: invalid URL prefix in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:27:05 [emerg] 11972#17124: invalid URL prefix in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:27:07 [emerg] 12416#16776: invalid URL prefix in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:30:49 [emerg] 5100#12692: invalid URL prefix in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:30:51 [emerg] 5760#16304: invalid URL prefix in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:56
+2021/10/01 16:35:18 [notice] 16348#8276: signal process started
+2021/10/01 16:38:29 [notice] 16704#11364: signal process started
+2021/10/01 16:47:59 [emerg] 12868#2680: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:48:01 [emerg] 17240#7952: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:48:11 [error] 5176#5944: *396 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "GET /login HTTP/1.1", upstream: "http://[::1]:3001/login", host: "localhost"
+2021/10/01 16:48:13 [error] 5176#5944: *396 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "GET /login HTTP/1.1", upstream: "http://127.0.0.1:3001/login", host: "localhost"
+2021/10/01 16:48:35 [emerg] 15976#10200: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:48:37 [emerg] 9228#668: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:49:17 [error] 5176#5944: *402 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://127.0.0.1:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 16:49:19 [error] 5176#5944: *402 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://[::1]:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 16:49:31 [emerg] 5236#16096: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:50:20 [error] 5176#5944: *419 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://127.0.0.1:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 16:50:22 [error] 5176#5944: *419 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://[::1]:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 16:50:38 [error] 5176#5944: *423 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://127.0.0.1:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 16:50:40 [error] 5176#5944: *423 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://[::1]:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 16:51:23 [emerg] 8632#16184: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:51:31 [emerg] 5756#16296: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:51:31 [alert] 7516#14256: worker process 5756 exited with code 1
+2021/10/01 16:51:31 [alert] 7516#14256: could not respawn worker
+2021/10/01 16:51:40 [error] 6432#10144: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/img/_HYHtD8F.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nodeserver, request: "GET /img/_HYHtD8F.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/01 16:51:58 [emerg] 10648#16676: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:51:58 [alert] 16404#12428: worker process 10648 exited with code 1
+2021/10/01 16:51:58 [alert] 16404#12428: could not respawn worker
+2021/10/01 16:52:29 [emerg] 6544#7880: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:61
+2021/10/01 16:54:17 [emerg] 5956#15668: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:54:24 [emerg] 16772#16740: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:54:40 [emerg] 17120#9128: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:54:42 [emerg] 15536#16652: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:55:56 [emerg] 12248#2460: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:56:34 [notice] 8368#7612: signal process started
+2021/10/01 16:56:36 [notice] 14760#9520: signal process started
+2021/10/01 16:56:38 [notice] 16680#7496: signal process started
+2021/10/01 16:56:40 [notice] 9428#12068: signal process started
+2021/10/01 16:56:41 [notice] 7724#2460: signal process started
+2021/10/01 16:56:42 [notice] 7704#14860: signal process started
+2021/10/01 16:56:42 [error] 7704#14860: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 16:56:44 [notice] 4160#8160: signal process started
+2021/10/01 16:56:44 [error] 4160#8160: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 16:56:45 [notice] 2660#12536: signal process started
+2021/10/01 16:56:45 [error] 2660#12536: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 16:56:52 [error] 17152#16044: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/img/_HYHtD8F.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nodeserver, request: "GET /img/_HYHtD8F.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/01 16:57:27 [error] 17152#16044: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/index" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nodeserver, request: "GET /index HTTP/1.1", host: "localhost"
+2021/10/01 16:57:40 [emerg] 15856#9176: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:57:42 [emerg] 9844#13740: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:57:45 [emerg] 17016#15392: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:66
+2021/10/01 16:57:50 [error] 17152#16044: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/img/_HYHtD8F.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nodeserver, request: "GET /img/_HYHtD8F.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/01 16:57:55 [error] 17152#16044: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/index" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nodeserver, request: "GET /index HTTP/1.1", host: "localhost"
+2021/10/01 17:04:31 [emerg] 1260#3492: unknown directive "localhost" in C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/conf/nginx.conf:65
+2021/10/01 17:04:58 [notice] 2012#9916: signal process started
+2021/10/01 17:04:58 [error] 2012#9916: OpenEvent("Global\ngx_stop_16176") failed (2: The system cannot find the file specified)
+2021/10/01 17:05:02 [error] 11160#11960: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/img/_HYHtD8F.jpg" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nodeserver, request: "GET /img/_HYHtD8F.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/01 17:05:02 [error] 11160#11960: *1 CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nodeserver, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/01 17:30:26 [notice] 2180#6372: signal process started
+2021/10/01 17:30:28 [notice] 5428#10048: signal process started
+2021/10/01 17:30:28 [error] 5428#10048: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 17:31:39 [notice] 9712#408: signal process started
+2021/10/01 17:31:39 [error] 9712#408: OpenEvent("Global\ngx_reload_3332") failed (2: The system cannot find the file specified)
+2021/10/01 17:31:48 [notice] 10168#8820: signal process started
+2021/10/01 17:32:01 [error] 12056#4600: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://[::1]:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 17:32:03 [error] 12056#4600: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://127.0.0.1:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 17:33:57 [notice] 7808#7492: signal process started
+2021/10/01 17:34:36 [error] 12056#4600: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://127.0.0.1:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 17:34:38 [error] 12056#4600: *16 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://[::1]:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 17:43:23 [notice] 3536#5016: signal process started
+2021/10/01 17:43:36 [error] 12056#4600: *23 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "GET /testData HTTP/1.1", upstream: "http://[::1]:3002/testData", host: "localhost"
+2021/10/01 17:43:38 [error] 12056#4600: *23 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "GET /testData HTTP/1.1", upstream: "http://127.0.0.1:3002/testData", host: "localhost"
+2021/10/01 17:43:56 [notice] 8644#11472: signal process started
+2021/10/01 17:44:41 [error] 12056#4600: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://127.0.0.1:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 17:44:43 [error] 12056#4600: *24 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "POST /refreshToken HTTP/1.1", upstream: "http://[::1]:3001/refreshToken", host: "localhost", referrer: "http://localhost/login"
+2021/10/01 17:49:29 [notice] 1860#8952: signal process started
+2021/10/01 17:50:02 [notice] 10172#3536: signal process started
+2021/10/01 17:50:38 [notice] 5796#6196: signal process started
+2021/10/01 17:50:41 [notice] 11976#7932: signal process started
+2021/10/01 17:50:41 [error] 11976#7932: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 17:50:42 [notice] 4892#7284: signal process started
+2021/10/01 17:50:42 [error] 4892#7284: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 17:50:45 [notice] 9824#5508: signal process started
+2021/10/01 17:50:45 [error] 9824#5508: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 17:51:29 [notice] 9484#8744: signal process started
+2021/10/01 17:52:03 [notice] 12104#5796: signal process started
+2021/10/01 17:54:23 [error] 12804#12872: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "GET /testData/testData2 HTTP/1.1", upstream: "http://[::1]:3002/testData/testData2", host: "localhost"
+2021/10/01 17:54:25 [error] 12804#12872: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: nodeserver, request: "GET /testData/testData2 HTTP/1.1", upstream: "http://127.0.0.1:3002/testData/testData2", host: "localhost"
+2021/10/01 17:56:23 [notice] 12848#12756: signal process started
+2021/10/01 17:57:39 [notice] 12124#13144: signal process started
+2021/10/01 17:57:39 [error] 12124#13144: OpenEvent("Global\ngx_quit_9140") failed (2: The system cannot find the file specified)
+2021/10/01 19:37:24 [notice] 7420#9848: signal process started
+2021/10/01 19:37:32 [notice] 5680#10124: signal process started
+2021/10/01 19:39:10 [notice] 11692#6856: signal process started
+2021/10/01 19:39:11 [notice] 5844#3388: signal process started
+2021/10/01 19:39:11 [error] 5844#3388: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 19:39:12 [notice] 2752#13092: signal process started
+2021/10/01 19:39:12 [error] 2752#13092: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 19:42:00 [notice] 11596#4440: signal process started
+2021/10/01 19:42:00 [error] 11596#4440: OpenEvent("Global\ngx_quit_9404") failed (2: The system cannot find the file specified)
+2021/10/01 19:46:24 [notice] 7328#2220: signal process started
+2021/10/01 19:46:25 [notice] 7936#8016: signal process started
+2021/10/01 19:46:25 [error] 7936#8016: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 19:48:53 [notice] 8392#7936: signal process started
+2021/10/01 19:48:54 [notice] 11876#8920: signal process started
+2021/10/01 19:48:54 [error] 11876#8920: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 19:50:20 [notice] 6404#760: signal process started
+2021/10/01 19:50:21 [notice] 2384#12848: signal process started
+2021/10/01 19:50:21 [error] 2384#12848: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 19:53:18 [notice] 7840#12552: signal process started
+2021/10/01 19:53:19 [notice] 9920#11900: signal process started
+2021/10/01 19:53:19 [error] 9920#11900: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 19:55:00 [notice] 1956#9368: signal process started
+2021/10/01 19:55:01 [notice] 12320#7156: signal process started
+2021/10/01 19:55:01 [error] 12320#7156: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 20:05:19 [notice] 11132#8156: signal process started
+2021/10/01 20:05:19 [notice] 2656#11340: signal process started
+2021/10/01 20:05:19 [error] 2656#11340: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 20:06:56 [notice] 8572#12348: signal process started
+2021/10/01 20:06:56 [error] 8572#12348: OpenEvent("Global\ngx_quit_12116") failed (2: The system cannot find the file specified)
+2021/10/01 20:10:55 [notice] 13056#4576: signal process started
+2021/10/01 20:10:56 [notice] 12904#11596: signal process started
+2021/10/01 20:10:56 [error] 12904#11596: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 20:16:54 [notice] 11992#1380: signal process started
+2021/10/01 20:16:54 [error] 11992#1380: OpenEvent("Global\ngx_quit_11548") failed (2: The system cannot find the file specified)
+2021/10/01 20:25:47 [notice] 2036#8788: signal process started
+2021/10/01 20:27:03 [notice] 10204#1048: signal process started
+2021/10/01 20:27:06 [notice] 9256#10208: signal process started
+2021/10/01 20:27:06 [error] 9256#10208: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 20:30:38 [notice] 2928#10860: signal process started
+2021/10/01 20:32:07 [notice] 8652#10012: signal process started
+2021/10/01 20:33:02 [notice] 456#11236: signal process started
+2021/10/01 20:33:17 [notice] 8040#10632: signal process started
+2021/10/01 20:33:17 [error] 8040#10632: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/10/01 20:33:31 [notice] 11632#11792: signal process started
+2021/10/01 20:33:31 [error] 11632#11792: OpenEvent("Global\ngx_stop_10796") failed (2: The system cannot find the file specified)
+2021/10/01 20:36:15 [notice] 8864#10064: signal process started
+2021/10/01 20:36:18 [notice] 8924#5248: signal process started
+2021/10/01 20:36:18 [error] 8924#5248: CreateFile() "C:\Users\Huy PC\Desktop\WORK\mernmp4tohls\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)

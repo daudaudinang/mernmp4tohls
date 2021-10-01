@@ -8,8 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "sendLog": "node sendLog.js",
     "authServer": "node authServer.js",
-    "dataServer": "node dataServer.js",
-    "userServer": "node userServer.js",
+    "dataServer1": "node dataServer1.js",
+    "dataServer2": "node dataServer2.js",
+    "userServer1": "node userServer1.js",
+    "userServer2": "node userServer2.js",
     "client": "npm run start --prefix client",
     "start": "concurrently \"npm run sendLog\""
   },

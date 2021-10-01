@@ -1,0 +1,28 @@
+### START LOGGING ###
+
+######[01/10/2021, 14:17:36][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:17:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:32:05][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[01/10/2021, 14:32:05][admin@admin][notification] REQUEST: REMOVE FILE
+[01/10/2021, 14:32:05][admin@admin][success] Remove File From Database: Xoá File thành công!
+[01/10/2021, 14:32:06][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[01/10/2021, 14:33:15][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:33:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:49:44][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 14:49:44][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 14:52:14][admin@admin][notification] REQUEST: UPLOAD FILE
+[01/10/2021, 14:53:23][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[01/10/2021, 20:22:45][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 20:22:46][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 20:34:45][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[01/10/2021, 20:34:46][admin@admin][notification] REQUEST: REMOVE FILE
+[01/10/2021, 20:34:46][admin@admin][success] Remove File From Database: Xoá File thành công!
+[01/10/2021, 20:34:46][admin@admin][success] Remove File From Database: Xoá File thành công!
