@@ -11,7 +11,7 @@
     "dataServer": "node dataServer.js",
     "userServer": "node userServer.js",
     "client": "npm run start --prefix client",
-    "start": "concurrently \"npm run sendLog\" \"npm run client\""
+    "start": "concurrently \"npm run sendLog\""
   },
   "keywords": [],
   "author": "",

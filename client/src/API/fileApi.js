@@ -1,23 +1,21 @@
 // api/productApi.js 
 import axiosClient from './axiosClient';
 
-const BASEURL = process.env.REACT_APP_BASE_URL_API_DATA_SERVER;
-
 const FileApi = {
     getListFile: () => {
-        return axiosClient.post(BASEURL + '/getListFile', { 
+        return axiosClient.post('/getListFile', { 
             
         });
     },
     uploadFile: (formData) => {
-        return axiosClient.post(BASEURL + '/uploadFile', formData, { 
+        return axiosClient.post('/uploadFile', formData, { 
             headers: {
                 'Content-Type': 'multipart/form-data'
             }
         });
     },
     removeFile: (id) => {
-        return axiosClient.post(BASEURL + '/removeFile', { 
+        return axiosClient.post('/removeFile', { 
             id: id
         });
     },

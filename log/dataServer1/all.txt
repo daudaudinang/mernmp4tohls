@@ -1,0 +1,43 @@
+### START LOGGING ###
+[01/10/2021, 00:30:34][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 00:33:10][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 00:33:36][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:33:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:33:56][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:33:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:34:15][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:34:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:34:36][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:34:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:37:58][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:37:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:38:09][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[01/10/2021, 00:38:39][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:38:40][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:39:05][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:39:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:39:11][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:39:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[01/10/2021, 00:41:11][server][success] Start Server: dataServer1 listening on: 3002
+
+######[01/10/2021, 00:41:54][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:41:54][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:41:59][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:42:00][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[01/10/2021, 08:39:36][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:39:36][database][error] Connect Database: Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.edeoy.mongodb.net
+[01/10/2021, 08:41:17][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:41:47][database][error] Connect Database: MongooseServerSelectionError: Server selection timed out after 30000 ms
+[01/10/2021, 08:49:51][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:50:22][database][error] Connect Database: MongooseServerSelectionError: Server selection timed out after 30000 ms
+[01/10/2021, 08:51:53][server][success] Start Server: dataServer1 listening on: 3002

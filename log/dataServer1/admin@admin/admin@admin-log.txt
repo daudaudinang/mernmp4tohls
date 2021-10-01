@@ -1,0 +1,33 @@
+### START LOGGING ###
+
+######[01/10/2021, 00:33:36][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:33:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:33:56][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:33:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:34:15][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:34:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:34:36][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:34:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:37:58][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:37:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:38:09][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[01/10/2021, 00:38:39][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:38:40][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:39:05][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:39:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:39:11][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:39:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:41:54][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:41:54][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[01/10/2021, 00:41:59][admin@admin][notification] REQUEST: GET LIST FILE
+[01/10/2021, 00:42:00][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

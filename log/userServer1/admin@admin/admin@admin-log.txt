@@ -1,0 +1,4 @@
+### START LOGGING ###
+
+######[01/10/2021, 00:39:33][admin@admin][notification] REQUEST: GET LIST USER
+[01/10/2021, 00:39:33][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

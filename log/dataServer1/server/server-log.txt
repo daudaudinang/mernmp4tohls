@@ -1,0 +1,8 @@
+### START LOGGING ###
+[01/10/2021, 00:30:34][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 00:33:10][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 00:41:11][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:39:36][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:41:17][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:49:51][server][success] Start Server: dataServer1 listening on: 3002
+[01/10/2021, 08:51:53][server][success] Start Server: dataServer1 listening on: 3002

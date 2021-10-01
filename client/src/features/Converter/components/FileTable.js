@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BASEURL = process.env.REACT_APP_BASE_URL_API_DATA_SERVER;
+const BASEURL = process.env.REACT_APP_BASE_URL;
 
 export const FileTable = ({dataFile, handleRemove}) => {
     return (
