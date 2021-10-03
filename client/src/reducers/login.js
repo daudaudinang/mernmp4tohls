@@ -1,5 +1,5 @@
 const initialState = {
-    isLogin: (sessionStorage.getItem('isLogin')) ? sessionStorage.getItem('isLogin') : false,
+    isLogin: (localStorage.getItem('isLogin')) ? localStorage.getItem('isLogin') : false,
 }
 
 const loginReducer = (state = initialState, action) => {

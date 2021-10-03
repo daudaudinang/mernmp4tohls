@@ -128,3 +128,40 @@
 
 ######[01/10/2021, 20:35:52][admin@admin][notification] REQUEST: GET LIST FILE
 [01/10/2021, 20:35:53][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[03/10/2021, 15:46:09][server][success] Start Server: dataServer1 listening on: 3002
+[03/10/2021, 20:17:53][server][success] Start Server: dataServer1 listening on: 3002
+
+######[03/10/2021, 20:19:43][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:19:43][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:19:45][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:19:46][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:19:56][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:19:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:19:58][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:19:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:20:17][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:20:18][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:20:24][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:20:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[03/10/2021, 20:22:58][server][success] Start Server: dataServer1 listening on: 3002
+
+######[03/10/2021, 20:23:23][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:23:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:23:32][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:23:32][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 20:23:36][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 20:23:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[03/10/2021, 21:47:11][server][success] Start Server: dataServer1 listening on: 3002
+
+######[03/10/2021, 21:47:44][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 21:47:45][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[03/10/2021, 21:49:05][admin@admin][notification] REQUEST: GET LIST FILE
+[03/10/2021, 21:49:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

@@ -13,7 +13,7 @@
     "userServer1": "node userServer1.js",
     "userServer2": "node userServer2.js",
     "client": "npm run start --prefix client",
-    "start": "concurrently \"npm run sendLog\""
+    "start": "concurrently \"npm run sendLog\" \"npm run client\""
   },
   "keywords": [],
   "author": "",

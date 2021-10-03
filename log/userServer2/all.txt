@@ -16,3 +16,16 @@
 [01/10/2021, 19:37:03][server][success] Start Server: User Server listening on: 4003
 [01/10/2021, 20:22:23][server][success] Start Server: User Server listening on: 4003
 [01/10/2021, 20:33:19][server][success] Start Server: User Server listening on: 4003
+[03/10/2021, 15:46:10][server][success] Start Server: User Server listening on: 4003
+[03/10/2021, 20:17:53][server][success] Start Server: User Server listening on: 4003
+
+######[03/10/2021, 20:19:55][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:19:55][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:20:01][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:20:01][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[03/10/2021, 20:20:31][admin@admin][notification] REQUEST: GET LIST USER
+[03/10/2021, 20:20:32][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+[03/10/2021, 20:22:58][server][success] Start Server: User Server listening on: 4003
+[03/10/2021, 21:47:11][server][success] Start Server: User Server listening on: 4003

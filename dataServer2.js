@@ -63,7 +63,7 @@ app.post("/getListFile", authenToken, (req, res) => {
   writeLog("dataServer2",req.username,"notification","REQUEST","GET LIST FILE");
   // Check trong collection User xem loại user là gì
     User.findOne({ username: req.username }, function (err, user) {
-      if (err) {
+      if (err || !user) {
         writeLog("dataServer2",req.username,"error","Get ListFile",err);
         res.json({ status: 0, message: err });
       }

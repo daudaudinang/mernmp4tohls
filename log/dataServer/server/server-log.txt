@@ -257,3 +257,7 @@
 [01/10/2021, 19:37:03][server][success] Start Server: AuthServer listening on: 3001
 [01/10/2021, 20:22:23][server][success] Start Server: AuthServer listening on: 3001
 [01/10/2021, 20:33:19][server][success] Start Server: AuthServer listening on: 3001
+[03/10/2021, 15:46:10][server][success] Start Server: AuthServer listening on: 3001
+[03/10/2021, 20:17:53][server][success] Start Server: AuthServer listening on: 3001
+[03/10/2021, 20:22:58][server][success] Start Server: AuthServer listening on: 3001
+[03/10/2021, 21:47:11][server][success] Start Server: AuthServer listening on: 3001

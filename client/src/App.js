@@ -24,16 +24,16 @@ function App() {
 
   useEffect(() => {
     // Nếu người dùng cố tình refresh lại trình duyệt:
-    if(sessionStorage.getItem("account_type")) {
-      setAccount_type(sessionStorage.getItem("account_type"));
+    if(localStorage.getItem("account_type")) {
+      setAccount_type(localStorage.getItem("account_type"));
     }
 
-    if(sessionStorage.getItem("refresh_token")) {
+    if(localStorage.getItem("refresh_token")) {
       const refreshToken = async () => {
         authApi.refreshToken()
           .then((response) => {
             if(response.status === 1) {
-              sessionStorage.setItem("access_token", response.access_token);
+              localStorage.setItem("access_token", response.access_token);
               setAccess_token(response.access_token);
             }
             else console.log("Refresh Token Error!");
@@ -50,7 +50,7 @@ function App() {
       authApi.refreshToken()
       .then((response) => {
         if(response.status === 1) {
-          sessionStorage.setItem("access_token", response.access_token);
+          localStorage.setItem("access_token", response.access_token);
           setAccess_token(response.access_token);
         }
         else console.log("Refresh Token Error!");
@@ -71,13 +71,12 @@ function App() {
           // reset Message báo đăng nhập nếu đăng nhập thành công
           setMessage("");
           setAccount_type(response.account_type);
-          console.log(response);
 
-          sessionStorage.setItem("isLogin", true);
-          sessionStorage.setItem("account_type", response.account_type);
-          sessionStorage.setItem("username", response.username);
-          sessionStorage.setItem("access_token", response.access_token);
-          sessionStorage.setItem("refresh_token", response.refresh_token);
+          localStorage.setItem("isLogin", true);
+          localStorage.setItem("account_type", response.account_type);
+          localStorage.setItem("username", response.username);
+          localStorage.setItem("access_token", response.access_token);
+          localStorage.setItem("refresh_token", response.refresh_token);
         }
       })
       .catch((err) => console.log(err));
@@ -101,7 +100,7 @@ function App() {
         dispatch(resetListFile());
         dispatch(resetListUser());
 
-        sessionStorage.clear();
+        localStorage.clear();
         const actionLogout = logout();
         dispatch(actionLogout);
       }    

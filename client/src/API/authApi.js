@@ -10,13 +10,13 @@ const AuthApi = {
 
     refreshToken: () => {
         return axiosClient.post('/refreshToken', {
-            refresh_token: sessionStorage.getItem('refresh_token') ? sessionStorage.getItem('refresh_token') : null
+            refresh_token: localStorage.getItem('refresh_token') ? localStorage.getItem('refresh_token') : null
         });
     },
 
     logout: () => {
         return axiosClient.post('/logout', {
-            refresh_token: sessionStorage.getItem('refresh_token') ? sessionStorage.getItem('refresh_token') : null
+            refresh_token: localStorage.getItem('refresh_token') ? localStorage.getItem('refresh_token') : null
         });
     }
 }

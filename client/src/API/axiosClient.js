@@ -13,9 +13,9 @@ paramsSerializer: params => queryString.stringify(params),
 
 axiosClient.interceptors.request.use(async (config) => {
 
-    if(sessionStorage.getItem('access_token')) {
+    if(localStorage.getItem('access_token')) {
         config.headers = {
-            'Authorization': `Bearer ${sessionStorage.getItem('access_token')}`,
+            'Authorization': `Bearer ${localStorage.getItem('access_token')}`,
         }
     }
     // Handle token here ... 
