@@ -4997,3 +4997,1978 @@
 
 ######[06/10/2021, 14:57:40][admin@admin][notification] REQUEST: REFRESH TOKEN
 [06/10/2021, 14:57:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 14:57:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 14:57:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 14:57:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 14:57:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:07:05][admin@admin][success] Login: Đăng nhập thành công!
+
+######[06/10/2021, 15:07:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:07:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:07:11][admin@admin][notification] REQUEST: LOGOUT
+
+######[06/10/2021, 15:07:11][admin@admin][notification] REQUEST: LOGOUT
+[06/10/2021, 15:07:12][admin@admin][success] Logout: Đăng xuất thành công!
+[06/10/2021, 15:07:12][admin@admin][success] Logout: Đăng xuất thành công!
+[06/10/2021, 15:07:22][admin@admin][success] Login: Đăng nhập thành công!
+
+######[06/10/2021, 15:07:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:07:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:07:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:07:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:07:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:07:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:07:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:07:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:07:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:07:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:07:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:07:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:08:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:08:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:09:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:09:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:09:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:09:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:09:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:09:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:09:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:09:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:09:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:09:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:09:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:09:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:09:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:09:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:09:55][admin@admin][success] Login: Đăng nhập thành công!
+
+######[06/10/2021, 15:09:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:09:56][admin@admin][error] Refresh Token: Không tìm thấy Refresh Token trong Database!
+
+######[06/10/2021, 15:10:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:19][admin@admin][error] Refresh Token: Không tìm thấy Refresh Token trong Database!
+
+######[06/10/2021, 15:10:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:21][admin@admin][error] Refresh Token: Không tìm thấy Refresh Token trong Database!
+
+######[06/10/2021, 15:10:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:10:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:10:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:10:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:10:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:10:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:11:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:11:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:11:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:11:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:11:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:11:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:11:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:11:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:12:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:12:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:12:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:12:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:12:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:12:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:13:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:13:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:13:28][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:13:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:13:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:13:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:13:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:13:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:14:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:14:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:14:30][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:14:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:14:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:14:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:15:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:15:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:15:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:15:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:15:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:15:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:15:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:15:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:15:51][admin@admin][success] Login: Đăng nhập thành công!
+
+######[06/10/2021, 15:16:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:16:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:16:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:16:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:16:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:16:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:16:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:16:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:16:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:16:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:17:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:17:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:17:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:17:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:17:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:17:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:17:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:17:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:18:28][admin@admin][success] Login: Đăng nhập thành công!
+
+######[06/10/2021, 15:18:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:18:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:19:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:19:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:19:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:19:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:19:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:19:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:19:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:19:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:20:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:20:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:20:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:20:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:21:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:21:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:21:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:21:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:22:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:22:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:22:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:22:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:23:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:23:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:23:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:23:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:24:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:24:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:24:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:24:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:25:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:25:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:25:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:25:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:26:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:26:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:26:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:26:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:27:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:27:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:27:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:27:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:28:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:28:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:28:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:28:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:29:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:29:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:29:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:29:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:30:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:30:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:30:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:30:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:31:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:31:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:31:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:31:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:32:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:32:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:32:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:32:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:33:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:33:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:34:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:34:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:34:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:34:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:35:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:35:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:35:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:35:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:36:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:36:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:36:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:36:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:37:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:37:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:37:36][admin@admin][success] Login: Đăng nhập thành công!
+
+######[06/10/2021, 15:37:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:37:38][admin@admin][error] Refresh Token: Không tìm thấy Refresh Token trong Database!
+
+######[06/10/2021, 15:38:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:38:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:38:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[06/10/2021, 15:38:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:38:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+[06/10/2021, 15:38:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:38:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:38:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:38:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:38:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:39:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:39:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:39:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:39:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:39:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:39:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:39:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:39:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:40:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:40:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:40:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:40:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:40:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:40:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:40:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:40:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:41:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:41:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:41:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:41:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:41:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:41:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:41:43][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:41:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:42:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:42:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:42:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:42:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:42:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:42:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:42:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:42:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:43:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:43:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:43:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:43:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:43:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:43:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:43:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:43:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:44:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:44:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:44:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:44:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:44:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:44:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:44:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:44:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:45:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:45:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:45:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:45:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:45:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:45:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:45:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:45:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:46:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:46:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:46:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:46:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:46:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:46:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:46:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:46:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:47:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:47:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:47:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:47:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:47:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:47:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:47:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:47:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:48:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:48:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:48:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:48:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:48:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:48:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:48:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:48:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:49:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:49:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:49:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:49:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:49:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:49:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:49:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:49:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:50:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:50:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:50:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:50:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:50:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:50:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:51:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:51:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:51:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:51:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:51:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:51:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:51:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:51:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:52:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:52:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:52:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:52:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:52:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:52:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:52:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:52:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:53:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:53:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:53:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:53:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:53:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:53:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:54:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:54:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:54:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:54:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:54:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:54:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:54:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:54:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:55:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:55:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:55:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:55:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:55:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:55:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:55:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:55:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:56:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:56:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:56:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:56:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:56:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:56:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:56:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:56:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:57:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:57:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:57:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:57:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:57:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:57:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:57:43][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:57:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:58:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:58:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:58:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:58:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:58:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:58:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:58:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:58:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:59:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:59:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:59:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:59:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:59:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:59:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 15:59:47][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 15:59:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:00:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:00:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:00:18][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:00:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:00:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:00:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:00:49][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:00:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:01:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:01:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:01:20][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:01:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:01:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:01:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:01:51][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:01:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:02:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:02:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:02:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:02:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:02:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:02:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:02:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:02:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:03:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:03:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:03:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:03:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:03:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:03:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:03:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:03:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:04:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:04:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:04:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:04:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:04:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:04:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:04:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:04:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:05:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:05:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:05:28][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:05:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:05:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:05:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:05:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:05:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:06:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:06:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:06:30][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:06:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:06:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:06:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:07:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:07:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:07:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:07:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:07:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:07:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:07:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:07:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:08:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:08:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:08:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:08:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:08:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:08:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:09:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:09:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:09:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:09:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:09:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:09:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:09:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:09:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:10:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:10:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:10:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:10:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:10:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:10:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:10:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:10:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:11:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:11:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:11:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:11:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:11:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:11:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:11:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:11:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:12:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:12:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:12:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:12:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:12:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:12:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:12:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:12:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[06/10/2021, 16:13:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[06/10/2021, 16:13:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 00:01:34][admin@admin][success] Login: Đăng nhập thành công!
+[07/10/2021, 00:05:09][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 00:05:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:05:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:05:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 00:05:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:05:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 00:05:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:06:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:06:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:06:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:06:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:06:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:06:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:06:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:06:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:07:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:07:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:07:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:07:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:07:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:07:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:07:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:07:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:08:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:08:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:08:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:08:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:08:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:08:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:08:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:08:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:09:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:09:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:09:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:09:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:09:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:09:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:09:47][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:09:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:10:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:10:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:10:18][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:10:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:10:49][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 00:10:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:10:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 00:10:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:11:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:11:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:11:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:11:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:11:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:11:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 00:16:08][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 00:16:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:16:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:16:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 00:16:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:16:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 00:16:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:17:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:17:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:17:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:17:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:17:30][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:17:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:17:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:17:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:18:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:18:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:18:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:18:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:18:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:18:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:18:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:18:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:19:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:19:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:19:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:19:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:19:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:19:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:19:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:19:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:20:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:20:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:20:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:20:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:20:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:20:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:20:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:20:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:21:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:21:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:21:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:21:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:21:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:21:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:21:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:21:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:22:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:22:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:22:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:22:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:22:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:22:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:22:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:22:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:23:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:23:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:23:18][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:23:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:23:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:23:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:23:49][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:23:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:24:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:24:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:24:20][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:24:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:24:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:24:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:24:51][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:24:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:25:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:25:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:25:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:25:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:25:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:25:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:25:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:25:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:26:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:26:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:26:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:26:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:26:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:26:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:26:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:26:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:27:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:27:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:27:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:27:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:27:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:27:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:27:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:27:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:28:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:28:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:28:28][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:28:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:28:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:28:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:28:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:29:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:29:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:29:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:29:30][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:29:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:29:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:29:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:30:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:30:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:30:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:30:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:30:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:30:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:30:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:30:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:31:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:31:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:31:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:31:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:31:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:31:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:31:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:31:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:32:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:32:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:32:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:32:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:32:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:32:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:33:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:33:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:33:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:33:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:33:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:33:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:33:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:33:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:34:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:34:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:34:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:34:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:34:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:34:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:34:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:34:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:35:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:35:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:35:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:35:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:35:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:35:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:35:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:35:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:36:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:36:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:36:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:36:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:36:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:36:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:36:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:36:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:37:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:37:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:37:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:37:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:37:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:37:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:37:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:37:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:38:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:38:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:38:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:38:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:38:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:38:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:38:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:38:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:39:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:39:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:39:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:39:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:39:43][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:39:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:39:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:39:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:40:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:40:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:40:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:40:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:40:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:40:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:40:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:40:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:41:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:41:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:41:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:41:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:41:47][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:41:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:41:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:41:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:42:18][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:42:19][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:42:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:42:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:42:49][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:42:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:42:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:42:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:43:20][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:43:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:43:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:43:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:43:51][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:43:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:43:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:43:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:44:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:44:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:44:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:44:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:44:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:44:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:45:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:45:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:45:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:45:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:45:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:45:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:45:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:45:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:46:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:46:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:46:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:46:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:46:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:46:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:46:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:46:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:47:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:47:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:47:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:47:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 00:47:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 00:47:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 00:48:08][admin@admin][success] Login: Đăng nhập thành công!
+[07/10/2021, 00:49:35][admin@admin][success] Login: Đăng nhập thành công!
+[07/10/2021, 02:25:58][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 02:26:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:26:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:26:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 02:26:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:26:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:26:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:26:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:26:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:27:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:27:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:27:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:27:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:27:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:27:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:27:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:27:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:28:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:28:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:28:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:28:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:28:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:28:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:28:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:28:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:29:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:29:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:29:28][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:29:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:29:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:29:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:29:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:29:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:30:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:30:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:30:13][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 02:30:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:30:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:30:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 02:30:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:30:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:30:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:31:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:31:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:31:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:31:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:31:23][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 02:31:49][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:31:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:31:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 02:31:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:31:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:31:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:32:20][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:32:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:32:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:32:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:32:51][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:32:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:32:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:32:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:33:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:33:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:33:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:33:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:34:32][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 02:34:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:34:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:35:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 02:35:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:35:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 02:35:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:35:28][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:35:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:35:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:35:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:35:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:36:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:36:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:36:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:36:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:36:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:36:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:36:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:37:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:37:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:37:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:37:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:37:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:37:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:37:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:37:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:38:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:38:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:38:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:38:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:38:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:38:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:38:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:38:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:39:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:39:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:39:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:39:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:39:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:39:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:39:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:39:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:40:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:40:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:40:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:40:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:40:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:40:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:40:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:40:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:41:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:41:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:41:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:41:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:41:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:41:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:42:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:42:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:42:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:42:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:42:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:42:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:42:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:42:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:43:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:43:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:43:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:43:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:43:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:43:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:43:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:43:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:44:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:44:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:44:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:44:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:44:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:44:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:44:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:44:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:45:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:45:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:45:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:45:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:45:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:45:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:45:51][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:45:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:46:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:46:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:46:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:46:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:46:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:46:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:46:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:46:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:47:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:47:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:47:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:47:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:47:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:47:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:47:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:47:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:48:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:48:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:48:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:48:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:48:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:48:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:48:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:48:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:49:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:49:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:49:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:49:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:49:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:49:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:49:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:49:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:50:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:50:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:50:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:50:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:50:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:50:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:51:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:51:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:51:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:51:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:51:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:51:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:51:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:51:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:52:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:52:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:52:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:52:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:52:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:52:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:52:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:52:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:53:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:53:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:53:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:53:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:53:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:53:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:53:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:53:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:54:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:54:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:54:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:54:30][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:54:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:54:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:55:00][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:55:01][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:55:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:55:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:55:31][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:55:32][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:55:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:55:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:56:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:56:03][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:56:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:56:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:56:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:56:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:56:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:56:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:57:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:57:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:57:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:57:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:57:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:57:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:57:43][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:57:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:58:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:58:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:58:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:58:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:58:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:58:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:58:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:58:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:59:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:59:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:59:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:59:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:59:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:59:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 02:59:49][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 02:59:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:00:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:00:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:00:20][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:00:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:00:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:00:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:00:51][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:00:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:01:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:01:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:01:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:01:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:01:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:01:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:01:53][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:01:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:02:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:02:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:02:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:02:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:02:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:02:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:02:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:02:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:03:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:03:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:03:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:03:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:03:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:03:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:03:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:03:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:04:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:04:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:04:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:04:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:04:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:04:51][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:04:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:05:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:05:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:05:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:05:30][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:05:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:05:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:05:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:06:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:06:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:06:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:06:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:06:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:06:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:06:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:06:55][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:07:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:07:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:07:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:07:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:07:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:07:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:07:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:07:57][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:08:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:08:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:08:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:08:28][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:08:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:08:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:20:46][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 03:21:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:21:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:21:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:21:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:21:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:21:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:21:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:21:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:21:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:21:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:22:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:22:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:22:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:22:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:22:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:22:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:23:25][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:23:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:23:56][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:23:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:24:27][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:24:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:24:53][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 03:25:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:25:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:25:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:25:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:25:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:25:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:25:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:25:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:25:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:25:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:26:22][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:26:23][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:26:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:26:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:26:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:26:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:26:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:27:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:27:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:27:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:27:30][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:27:31][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:27:55][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:27:56][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:28:01][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:28:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:28:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:28:27][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:28:32][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:28:33][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:28:57][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:28:58][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:29:03][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:29:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:29:28][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:29:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:29:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:29:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:30:02][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:30:02][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:30:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:30:06][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:30:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:30:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:30:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:30:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:31:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:31:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:31:07][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:31:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:31:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:31:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:31:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:31:39][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:32:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:32:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:32:09][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:32:10][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:32:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:32:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:32:40][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:32:41][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:33:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:33:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:33:11][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:33:12][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:33:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:33:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:33:42][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:33:43][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:34:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:34:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:34:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:34:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:34:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:34:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:34:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:34:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:35:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:35:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:35:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:35:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:35:39][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 03:36:36][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:36:37][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:38:51][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 03:39:13][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:39:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:39:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 03:39:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:39:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:39:21][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:39:44][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:39:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:39:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:39:52][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:40:14][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:40:14][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:40:26][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:40:26][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:40:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:40:46][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:40:58][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:40:59][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:41:16][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:41:17][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:41:29][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:41:29][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:41:47][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:41:48][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:41:59][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:42:00][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:42:18][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:42:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:42:33][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:42:34][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:42:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:42:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:43:04][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:43:04][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:43:20][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:43:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:43:34][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:43:35][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:43:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:43:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:44:05][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:44:05][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:44:21][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:44:22][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:44:35][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:44:36][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:44:52][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:44:53][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:45:06][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:45:07][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:45:23][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:45:24][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:45:37][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:45:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:45:54][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:45:54][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:46:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:46:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:46:24][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:46:25][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:46:44][admin@admin][success] Login: Đăng nhập thành công!
+
+######[07/10/2021, 03:47:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:47:08][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:47:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+
+######[07/10/2021, 03:47:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:47:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+[07/10/2021, 03:47:15][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:47:38][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:47:38][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:47:45][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:47:45][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:48:08][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:48:09][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:48:15][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:48:16][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:48:39][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:48:40][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:48:46][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:48:47][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:49:10][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:49:11][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:49:17][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:49:18][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:49:41][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:49:42][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:49:48][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:49:49][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:50:12][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:50:13][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:50:19][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:50:20][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:50:43][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:50:44][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:50:50][admin@admin][notification] REQUEST: REFRESH TOKEN
+[07/10/2021, 03:50:50][admin@admin][success] Refresh Token: Refresh Token thành công!
+
+######[07/10/2021, 03:51:14][admin@admin][notification] REQUEST: REFRESH TOKEN

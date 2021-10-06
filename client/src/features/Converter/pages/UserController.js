@@ -9,7 +9,6 @@ import AddUser from '../components/AddUser';
 import EditUser from '../components/EditUser';
 import { UserTable } from '../components/UserTable';
 import { removeUser, saveUser } from './../../../actions/user';
-import "./style.css";
 
 UserController.propTypes = {
 
@@ -39,7 +38,7 @@ function UserController(props) {
             })
         }
         fetchData();
-    }, [changeData]);
+    }, [changeData, dispatch]);
 
     const handleAdd = async (dataUserAdd) => {
         await userApi.addUser(dataUserAdd)

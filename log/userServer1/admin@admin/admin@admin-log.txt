@@ -23,3 +23,9 @@
 
 ######[06/10/2021, 14:55:11][admin@admin][notification] REQUEST: GET LIST USER
 [06/10/2021, 14:55:12][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[07/10/2021, 02:34:37][admin@admin][notification] REQUEST: GET LIST USER
+[07/10/2021, 02:34:37][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[07/10/2021, 02:34:42][admin@admin][notification] REQUEST: GET LIST USER
+[07/10/2021, 02:34:43][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

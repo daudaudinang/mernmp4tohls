@@ -48,11 +48,6 @@ function App() {
 
       refreshToken();
     }
-
-    // Nếu người dùng đóng cứng trình duyệt
-    return () => {
-      handleLogout();
-    }
   },[])
 
   useEffect(() => {

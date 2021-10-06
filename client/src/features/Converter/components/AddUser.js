@@ -1,5 +1,4 @@
 import React from 'react';
-import './AddUser.css';
 import { useState } from 'react';
 
 const AddUser = ({handleAdd, setMessage}) => {

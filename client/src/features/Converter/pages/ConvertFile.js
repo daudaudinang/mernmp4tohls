@@ -7,14 +7,16 @@ import 'reactstrap';
 import { removeFile, saveFile } from './../../../actions/file';
 import { FileTable } from './../components/FileTable';
 import "./style.css";
+import VideoDisplay from './../components/VideoDisplay';
 
 function ConvertFile(props) {
     const listFile = useSelector(state => state.file.listFile);
     const dispatch = useDispatch();
 
-    const [video, setVideo] = useState(null);
+    const [video, setVideo] = useState({data: null, status: 0}); // status: 0: Chưa có file upload, 1: Đã có file upload, chưa convert, 2: Đã convert hoàn thành
     const [message, setMessage] = useState(null);
     const [changeData, setChangeData] = useState(0);
+    const [outputVideo, setOutputVideo] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -28,16 +30,16 @@ function ConvertFile(props) {
             })
         }
         fetchData();
-   }, [changeData]);
+   }, [changeData, dispatch]);
 
 
    const handleSubmit = (event) => {
     event.preventDefault();
     setMessage("Đang convert... Vui lòng chờ!")
-    if(video === null) setMessage("Bạn phải chọn video muốn convert!");
+    if(video.status === 0) setMessage("Bạn phải chọn video muốn convert!");
     else {
         const formData = new FormData();
-        formData.append("video", video);
+        formData.append("video", video.data);
 
         const fetchData = async () => {
             FileApi.uploadFile(formData)
@@ -45,6 +47,8 @@ function ConvertFile(props) {
                 setMessage(response.message);
                 if(response.status === 1) {
                     setChangeData(changeData + 1);
+                    setVideo({...video, status: 2});
+                    setOutputVideo(response.outputVideo);
                 }
             })
             .catch(err => console.log(err));
@@ -57,7 +61,7 @@ function ConvertFile(props) {
 
   const handleChange = (event) => {
     const file = event.target.files[0];
-    setVideo(file);
+    setVideo({data: file, status: 1});
   }
 
   const handleRemove = (event) => {
@@ -83,15 +87,25 @@ function ConvertFile(props) {
     return (
         <>
         <Banner title="Convert your video 🎉" backgroundUrl={Images.PINK_BG} message={message} />
-        <div className="main-container-file">
-            <form onSubmit={handleSubmit}>
-                <div className="container-file">
-                    <input type="file" onChange={handleChange}/>
-                    <button type="submit">Convert File</button>
+        <div className="main-container-convert-file">
+            <div className="form-upload-file">
+                <form onSubmit={handleSubmit}>
+                    <div className="container-file">
+                        <input type="file" onChange={handleChange}/>
+                        <button type="submit">Convert File</button>
+                    </div>
+                </form>
+            </div>
+            {(video.status === 2) 
+                ? 
+                <div className="video-preview">
+                    <VideoDisplay video={outputVideo}/>
                 </div>
-            </form>
-
-            <FileTable dataFile={listFile} handleRemove={handleRemove}/>
+                : <div></div>
+            }
+            <div className="list-file">
+                <FileTable dataFile={listFile} handleRemove={handleRemove}/>
+            </div>
         </div>
         </>
     )

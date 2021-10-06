@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import 'reactstrap';
 import { removeFile, saveFile } from './../../../actions/file';
 import { FileTable } from './../components/FileTable';
-import "./style.css";
 
 function FileController(props) {
     const listFile = useSelector(state => state.file.listFile);
@@ -26,7 +25,7 @@ function FileController(props) {
             })
         }
         fetchData();
-   }, []);
+   }, [dispatch]);
 
   const handleRemove = (event) => {
     event.preventDefault();

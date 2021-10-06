@@ -1,5 +1,4 @@
 import React from 'react';
-import './AddUser.css';
 import { useState } from 'react';
 import { useParams } from 'react-router';
 import userApi from 'API/userApi';

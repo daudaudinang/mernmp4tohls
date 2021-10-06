@@ -2,7 +2,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express from "express";
 import ffmpeg from "fluent-ffmpeg";
-import fs from "fs";
+import {appendFileSync, existsSync, unlink, readdir}  from "fs";
 import mkdirp from "mkdirp";
 import mongoose from "mongoose";
 import multer from "multer";
@@ -103,24 +103,24 @@ app.post("/removeFile", authenToken, (req, res) => {
           "./upload/" + file.username + "/input/" + file.file_upload;
         let linkConverted =
           "./upload/" + file.username + "/output/" + file.file_converted;
-        if (fs.existsSync("./upload/" + file.username)) {
+        if (existsSync("./upload/" + file.username)) {
           // Xoá file upload
-          fs.unlink(linkUpload, function (e) {
+          unlink(linkUpload, function (e) {
             if (err) writeLog("dataServer1",req.username,"error","Remove File Input",err);
           });
 
           // Xoá file converted
-          fs.unlink(linkConverted, function (e) {
+          unlink(linkConverted, function (e) {
             if (err) writeLog("dataServer1",req.username,"error","Remove File Output",err);
           });
 
           // Xoá list segment
           let linkDirectory = "./upload/" + file.username + "/segment/";
-          fs.readdir(linkDirectory, (err, files) => {
+          readdir(linkDirectory, (err, files) => {
             if (err) writeLog("dataServer1",req.username,"error","Remove List File Segment",err);
 
             for (const file of files) {
-              fs.unlink(path.join(linkDirectory, file), (err) => {
+              unlink(path.join(linkDirectory, file), (err) => {
                 if (err) writeLog("dataServer1",req.username,"error","Remove List File Segment",err);
               });
             }
@@ -148,24 +148,24 @@ app.post("/removeFile", authenToken, (req, res) => {
                 "./upload/" + file.username + "/input/" + file.file_upload;
               let linkConverted =
                 "./upload/" + file.username + "/output/" + file.file_converted;
-              if (fs.existsSync("./upload/" + file.username)) {
+              if (existsSync("./upload/" + file.username)) {
                 // Xoá file upload
-                fs.unlink(linkUpload, function (e) {
+                unlink(linkUpload, function (e) {
                   if (e) writeLog("dataServer1",req.username,"error","Remove File Input",err);
                 });
 
                 // Xoá file converted
-                fs.unlink(linkConverted, function (e) {
+                unlink(linkConverted, function (e) {
                   if (e) writeLog("dataServer1",req.username,"error","Remove File Output",err);
                 });
 
                 // Xoá list segment
                 let linkDirectory = "./upload/" + file.username + "/segment/";
-                fs.readdir(linkDirectory, (err, files) => {
+                readdir(linkDirectory, (err, files) => {
                   if (err) writeLog("dataServer1",req.username,"error","Remove List File Segment",err);
 
                   for (const file of files) {
-                    fs.unlink(path.join(linkDirectory, file), (err) => {
+                    unlink(path.join(linkDirectory, file), (err) => {
                       if (err) writeLog("dataServer1",req.username,"error","Remove File File Segment",err);
                     });
                   }
@@ -193,12 +193,12 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
     let username = req.username;
     let filename = req.file.filename;
 
-    if (!fs.existsSync("./upload/" + username)) mkdirp("./upload/" + username);
-    if (!fs.existsSync("./upload/" + username + "/input"))
+    if (!existsSync("./upload/" + username)) mkdirp("./upload/" + username);
+    if (!existsSync("./upload/" + username + "/input"))
       mkdirp("./upload/" + username + "/input");
-    if (!fs.existsSync("./upload/" + username + "/segment"))
+    if (!existsSync("./upload/" + username + "/segment"))
       mkdirp("./upload/" + username + "/segment");
-    if (!fs.existsSync("./upload/" + username + "/output"))
+    if (!existsSync("./upload/" + username + "/output"))
       mkdirp("./upload/" + username + "/output");
 
     mv(
@@ -227,7 +227,6 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
           "/upload/" +
           username +
           "/segment/",
-        "-metadata", "show_notification=You are watching daudau video",
       ])
       .output("./upload/" + username + "/output/" + filename + ".m3u8")
       .on("start", function (commandLine) {
@@ -249,7 +248,8 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         });
         file.save().then(() => {
           writeLog("dataServer1",req.username,"success","Upload File","Upload và convert file thành công!");
-          res.json({ status: 1, message: "Upload và convert file thành công!" });
+          appendFileSync("./upload/" + username + "/output/" + filename + ".m3u8", "\n#NOTIFICATION=WELCOME TO MY VIDEO");
+          res.json({ status: 1, message: "Upload và convert file thành công!", outputVideo: process.env.URL + ":" + process.env.PORT_NGINX + "/upload/" + username + "/output/" + filename + ".m3u8"});
         });
       })
       .run();

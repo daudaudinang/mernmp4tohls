@@ -55,3 +55,23 @@
 
 ######[06/10/2021, 14:55:11][admin@admin][notification] REQUEST: GET LIST USER
 [06/10/2021, 14:55:12][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+[06/10/2021, 15:02:37][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 15:09:44][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 15:15:26][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 15:18:06][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 15:37:03][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 00:01:02][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 00:02:09][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 00:04:14][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 00:08:39][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 00:10:49][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 00:15:37][server][success] Start Server: User Server 1 listening on: 3003
+
+######[07/10/2021, 02:34:37][admin@admin][notification] REQUEST: GET LIST USER
+[07/10/2021, 02:34:37][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[07/10/2021, 02:34:42][admin@admin][notification] REQUEST: GET LIST USER
+[07/10/2021, 02:34:43][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+[07/10/2021, 03:09:06][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 03:19:02][server][success] Start Server: User Server 1 listening on: 3003
+[07/10/2021, 03:37:57][server][success] Start Server: User Server 1 listening on: 3003
