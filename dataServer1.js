@@ -53,11 +53,6 @@ app.use(express.json());
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 app.use("/upload", express.static(path.join(__dirname, "upload")));
 
-app.get("/testData/testData2", function (req, res, next) {
-  console.log("data Server 1");
-  res.send("data Server 1");
-});
-
 app.post("/getListFile", authenToken, (req, res) => {
   console.log("Dataserver1 served!");
   try{
@@ -232,6 +227,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
           "/upload/" +
           username +
           "/segment/",
+        "-metadata", "show_notification=You are watching daudau video",
       ])
       .output("./upload/" + username + "/output/" + filename + ".m3u8")
       .on("start", function (commandLine) {

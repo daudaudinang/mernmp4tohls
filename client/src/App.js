@@ -15,6 +15,11 @@ import FileController from "./features/Converter/pages/FileController";
 import { Logout } from './features/Converter/pages/Logout';
 import UserController from "./features/Converter/pages/UserController";
 
+window.onunload = () => {
+  // Clear the local storage
+  localStorage.clear();
+}
+
 function App() {
   const isLogin = useSelector((state) => state.login.isLogin);
   const [access_token, setAccess_token] = useState(null);
@@ -42,6 +47,11 @@ function App() {
       }
 
       refreshToken();
+    }
+
+    // Nếu người dùng đóng cứng trình duyệt
+    return () => {
+      handleLogout();
     }
   },[])
 

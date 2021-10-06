@@ -44,3 +44,14 @@
 ######[03/10/2021, 20:23:25][admin@admin][notification] REQUEST: GET LIST USER
 [03/10/2021, 20:23:26][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
 [03/10/2021, 21:47:11][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 10:55:50][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 11:56:08][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 12:12:37][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 12:26:10][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 12:27:12][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 12:29:09][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 14:34:15][server][success] Start Server: User Server 1 listening on: 3003
+[06/10/2021, 14:54:08][server][success] Start Server: User Server 1 listening on: 3003
+
+######[06/10/2021, 14:55:11][admin@admin][notification] REQUEST: GET LIST USER
+[06/10/2021, 14:55:12][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

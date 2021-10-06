@@ -226,6 +226,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         "-hls_segment_filename",
         "./upload/" + username + "/segment/" + filename + "-%d.ts",
         "-hls_base_url",
+        "-metadata", "show_notification=You are watching daudau video",
         process.env.URL +
           ":" +
           process.env.PORT_NGINX +

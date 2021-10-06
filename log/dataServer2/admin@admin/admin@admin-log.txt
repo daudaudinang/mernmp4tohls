@@ -55,3 +55,17 @@
 
 ######[03/10/2021, 21:48:04][admin@admin][notification] REQUEST: UPLOAD FILE
 [03/10/2021, 21:49:05][admin@admin][success] Upload File: Upload và convert file thành công!
+
+######[06/10/2021, 11:01:41][admin@admin][notification] REQUEST: GET LIST FILE
+[06/10/2021, 11:01:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[06/10/2021, 11:57:23][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[06/10/2021, 11:59:04][admin@admin][notification] REQUEST: GET LIST FILE
+[06/10/2021, 11:59:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[06/10/2021, 14:55:13][admin@admin][notification] REQUEST: GET LIST FILE
+[06/10/2021, 14:55:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[06/10/2021, 14:57:39][admin@admin][notification] REQUEST: GET LIST FILE
+[06/10/2021, 14:57:40][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
