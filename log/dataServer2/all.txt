@@ -532,3 +532,265 @@
 
 ######[22/10/2021, 17:34:22][admin@admin][notification] REQUEST: GET LIST FILE
 [22/10/2021, 17:34:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 09:28:29][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:29:19][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[23/10/2021, 09:31:20][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:31:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:34:21][admin@admin][notification] REQUEST: REMOVE FILE
+[23/10/2021, 09:34:22][admin@admin][success] Remove File From Database: Xoá File thành công!
+
+######[23/10/2021, 09:35:31][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:35:32][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:36:40][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:36:41][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:36:51][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:36:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:37:22][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[23/10/2021, 09:39:45][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:39:46][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:41:14][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:41:15][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:42:55][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:42:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:43:07][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:43:08][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:43:24][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:43:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 09:43:40][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:44:02][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:44:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:44:11][admin@admin][notification] REQUEST: UPLOAD FILE
+[23/10/2021, 09:45:44][server][success] Start Server: dataServer2 listening on: 4002
+[23/10/2021, 09:47:19][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:47:42][admin@admin][notification] REQUEST: UPLOAD FILE
+[23/10/2021, 09:51:07][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:51:20][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:51:21][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 09:51:30][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:51:31][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 09:52:16][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:52:38][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:52:39][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 09:53:11][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:53:33][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:53:34][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 09:55:15][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:55:40][admin@admin][notification] REQUEST: UPLOAD FILE
+[23/10/2021, 09:58:50][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 09:59:09][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 09:59:10][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:00:43][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:00:43][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:00:49][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:00:49][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:00:55][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:00:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:00:59][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:01:00][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:01:13][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:01:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:01:15][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:01:15][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:01:56][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:01:56][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:02:01][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:02:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:05:24][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:05:25][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:06:06][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:06:06][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:10:20][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:10:20][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:10:23][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:10:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:10:32][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:10:33][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:10:35][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:10:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:13:42][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:13:43][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:20:28][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:20:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:20:56][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:20:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:21:21][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:21:22][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:21:57][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:21:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 10:22:49][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 10:23:08][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:23:08][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:23:13][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[23/10/2021, 10:24:35][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:24:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:24:51][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:24:52][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:25:06][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:25:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:25:23][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[23/10/2021, 10:25:56][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:25:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:26:05][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:26:06][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:26:57][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:26:57][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:27:16][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:27:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:27:18][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[23/10/2021, 10:27:36][admin@admin][notification] REQUEST: UPLOAD FILE
+
+######[23/10/2021, 10:27:37][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:27:37][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:28:12][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:28:13][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:28:17][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:28:18][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:28:27][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:28:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:28:41][admin@admin][notification] REQUEST: UPLOAD FILE
+[23/10/2021, 10:31:08][server][success] Start Server: dataServer2 listening on: 4002
+[23/10/2021, 10:35:13][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 10:35:36][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:35:36][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 10:40:09][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 10:40:23][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:40:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 10:43:14][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 10:43:46][admin@admin][notification] REQUEST: UPLOAD FILE
+[23/10/2021, 10:46:20][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 10:46:57][admin@admin][notification] REQUEST: UPLOAD FILE
+[23/10/2021, 10:53:10][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 10:53:27][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:53:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:54:54][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 10:54:55][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 10:58:37][admin@admin][notification] REQUEST: REMOVE FILE
+
+######[23/10/2021, 10:58:37][admin@admin][notification] REQUEST: REMOVE FILE
+[23/10/2021, 10:58:37][admin@admin][success] Remove File From Database: Xoá File thành công!
+[23/10/2021, 10:58:38][admin@admin][success] Remove File From Database: Xoá File thành công!
+[23/10/2021, 11:00:34][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 11:00:58][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:00:59][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:02:24][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:02:24][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 11:08:21][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 11:08:39][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:08:40][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+[23/10/2021, 11:15:35][server][success] Start Server: dataServer2 listening on: 4002
+
+######[23/10/2021, 11:17:07][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:17:08][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:17:10][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:17:11][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:17:22][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:17:23][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:18:06][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:18:07][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:20:12][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:20:12][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:23:41][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:23:42][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:25:58][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:25:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:30:28][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:30:28][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:36:04][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:36:05][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:49:02][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:49:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:57:38][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:57:38][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:59:16][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:59:16][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:59:16][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:59:17][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:59:46][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:59:47][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 11:59:58][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 11:59:58][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 12:00:01][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 12:00:01][admin@admin][success] Get ListFile: Lấy danh sách File thành công!
+
+######[23/10/2021, 12:01:01][admin@admin][notification] REQUEST: GET LIST FILE
+[23/10/2021, 12:01:02][admin@admin][success] Get ListFile: Lấy danh sách File thành công!

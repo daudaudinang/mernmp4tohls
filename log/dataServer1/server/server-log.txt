@@ -48,3 +48,33 @@
 [22/10/2021, 14:25:27][server][success] Start Server: dataServer1 listening on: 3002
 [22/10/2021, 15:21:30][server][success] Start Server: dataServer1 listening on: 3002
 [22/10/2021, 15:21:50][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:28:29][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:29:19][server][error] Unknown: ReferenceError: outputFormat is not defined
+[23/10/2021, 09:37:22][server][error] Unknown: ReferenceError: outputFormat is not defined
+[23/10/2021, 09:39:59][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 09:43:40][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:44:11][server][error] Unknown: ReferenceError: outputFormat is not defined
+[23/10/2021, 09:45:44][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:47:19][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:47:42][server][error] Unknown: ReferenceError: outputFormat is not defined
+[23/10/2021, 09:51:07][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:52:16][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:53:11][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:55:15][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 09:58:50][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:22:49][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:27:03][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 10:27:18][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 10:27:22][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 10:27:36][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 10:27:37][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 10:28:41][server][error] Unknown: TypeError: Cannot read property 'filename' of undefined
+[23/10/2021, 10:31:08][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:35:13][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:40:09][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:43:14][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:46:20][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 10:53:10][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 11:00:34][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 11:08:21][server][success] Start Server: dataServer1 listening on: 3002
+[23/10/2021, 11:15:35][server][success] Start Server: dataServer1 listening on: 3002

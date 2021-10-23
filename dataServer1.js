@@ -14,6 +14,8 @@ import authenToken from "./middleware/authenToken.js";
 import writeLog from './my_modules/writeLog.js';
 import addCommand from './my_modules/addCommand.js';
 import osu from 'node-os-utils';
+import ffmpeg from "ffmpeg-cli";
+import fs from "fs";
 var cpu = osu.cpu;
 
 dotenv.config();
@@ -184,13 +186,14 @@ app.post("/removeFile", authenToken, (req, res) => {
 });
 
 app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
+  console.log("Dataserver1 served!");
   try{
     writeLog("dataServer1",req.username,"notification","REQUEST","UPLOAD FILE");
     let username = req.username;
     let filename = req.file.filename;
-    let outputFormat = req.body.outputOption.videoFormat;
+    let outputFormat = req.body.videoFormat;
     let outputCodec = null;
-    switch(req.body.outputOption.videoCodec){
+    switch(req.body.videoCodec){
       case "h264" :
         outputCodec = 'libx264';
         break;
@@ -217,20 +220,21 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
       (err) => {
         if (err) {
           writeLog("dataServer1",req.username,"error","Move File",err);
-          res.json({ status: 0, message: "Move File Fail!" });
+          res.json({ status: 0, message: "Convert file thất bại!" });
         }
       }
     );
 
     // Move file xong, giờ transcode
+    console.log("Start convert!");
     if(outputFormat === "hls") {
-      command = addCommand([
-        `-y -i ./public/upload/${username}/input/${filename}`,
+      let command = addCommand([
+        `-y -i ./upload/${username}/input/${filename}`,
         `-map 0 -map 0 -map 0 -map 0`,
         `-c:a aac -c:v ${outputCodec}`,
-        `-s:v:0 2560x1440 -b:v:0 7000k`,
-        `-s:v:1 1920x1080 -b:v:1 5000k`,
-        `-s:v:2 1280x720 -b:v:2 2000k`,
+        `-s:v:0 2560x1440 -b:v:0 4000k`,
+        `-s:v:1 1920x1080 -b:v:1 2000k`,
+        `-s:v:2 1280x720 -b:v:2 1000k`,
         `-s:v:3 640x360 -b:v:3 100k`,
         `-var_stream_map "v:0,a:0 v:1,a:1 v:2,a:2 v:3,a:3"`,
         `-master_pl_name ${filename}-master.m3u8`,
@@ -238,68 +242,82 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-max_muxing_queue_size 4096`,
         `-hls_time 10`,
         `-hls_list_size 0`,
-        `-hls_segment_filename ./public/upload/${username}/segment/%v-${filename}-fileSequence%d.ts`,
+        `-hls_segment_filename ./upload/${username}/segment/%v-${filename}-fileSequence%d.ts`,
         `-hls_base_url http://localhost:80/upload/${username}/segment/`,
-        `./public/upload/${username}/output/%v-${filename}.m3u8`
+        `./upload/${username}/output/%v-${filename}.m3u8`
       ]);
+      ffmpeg
+      .run(command)
+      .then(result => {
+        fs.readFile(`./upload/${username}/output/${filename}-master.m3u8`, 'utf8', (err, data) => {
+          if(err) {
+            res.json({ status: 0, message: "Convert file thất bại!"});
+            writeLog("dataServer1",req.username,"error","Edit File","Đọc file thất bại!\n" + err);
+          }
+          else {
+            let data_array = data.split("\n");
+            let fixed_data = data_array.map((one) => one.replace(/(.*\.m3u8)$/g, (match) => {
+              return `http://localhost:80/upload/${username}/output/${match}`;
+            }));
+            fs.writeFile(`./upload/${username}/output/${filename}-master.m3u8`, fixed_data.join("\n"), err => {
+              if(err) {
+                writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!\n" + err);
+                res.json({ status: 0, message: "Convert file thất bại!"});
+              } else {
+                let file = new File({
+                  username: username,
+                  file_upload: filename,
+                  file_converted: filename + "-master.m3u8",
+                });
+                file.save().then(() => {
+                  writeLog("dataServer1",req.username,"success","Upload File","Upload và convert file thành công!");
+                  res.json({ status: 1, message: "Convert file thành công!"});
+                });
+              }
+            });
+          }
+        });
+        console.log("Convert success!");
+      })
+      .catch(err => {
+        writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!\n" + err);
+        res.json({ status: 0, message: "Convert file thất bại!"});
+      });
     } else if(outputFormat === "dash") {
-        command = addCommand([`-y -i ./public/upload/${username}/input/${filename}`,
-          `-map 0:v -map 0:v -map 0:v -map 0:v -map 0:a`,
-          `-c:a aac -c:v ${outputCodec}`,
-          `-s:v:0 2560x1440 -b:v:0 8000k `,
-          `-s:v:1 1920x1080 -b:v:1 6000k `,
-          `-s:v:2 1280x720 -b:v:2 3000k `,
-          `-s:v:3 320x180 -b:v:3 80k `,
-          `-profile:v:1 baseline -profile:v:2 baseline -profile:v:3 baseline -profile:v:0 main`,
-          `-use_timeline 1`, 
-          `-use_template 1`,
-          `-adaptation_sets "id=0,streams=v id=1,streams=a"`,
-          `-f dash`,
-          `./public/upload/${username}/output/${filename}.mpd`
-        ]);
+      let command = addCommand([`-y -i ./upload/${username}/input/${filename}`,
+        `-map 0:v -map 0:v -map 0:v -map 0:v -map 0:a`,
+        `-c:a aac -c:v ${outputCodec}`,
+        `-s:v:0 2560x1440 -b:v:0 8000k `,
+        `-s:v:1 1920x1080 -b:v:1 6000k `,
+        `-s:v:2 1280x720 -b:v:2 3000k `,
+        `-s:v:3 320x180 -b:v:3 80k `,
+        `-profile:v:1 baseline -profile:v:2 baseline -profile:v:3 baseline -profile:v:0 main`,
+        `-use_timeline 1`, 
+        `-use_template 1`,
+        `-adaptation_sets "id=0,streams=v id=1,streams=a"`,
+        `-f dash`,
+        `./upload/${username}/output/${filename}.mpd`
+      ]);
+
+      ffmpeg
+      .run(command)
+      .then(result => {
+        let file = new File({
+          username: username,
+          file_upload: filename,
+          file_converted: filename + ".mpd",
+        });
+        file.save().then(() => {
+          writeLog("dataServer1",req.username,"success","Upload File","Upload và convert file thành công!");
+          res.json({ status: 1, message: "Convert file thành công!"});
+          console.log("Convert success!");
+        });
+      })
+      .catch(err => {
+        writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!");
+        res.json({ status: 0, message: "Convert file thất bại!"});
+      });
     }
-
-
-    // ffmpeg("./upload/" + username + "/input/" + filename)
-    //   .outputOptions([
-    //     "-f hls",
-    //     "-max_muxing_queue_size 2048",
-    //     "-hls_time 1",
-    //     "-hls_list_size 0",
-    //     "-hls_segment_filename", "./upload/" + username + "/segment/" + filename + "-%d.ts",
-    //     "-hls_base_url",
-    //     process.env.URL +
-    //       ":" +
-    //       process.env.PORT_NGINX +
-    //       "/upload/" +
-    //       username +
-    //       "/segment/",
-    //   ])
-    //   .output("./upload/" + username + "/output/" + filename + ".m3u8")
-    //   .on("start", function (commandLine) {
-    //     console.log("Spawned Ffmpeg with command: " + commandLine);
-    //   })
-    //   .on("error", function (err, stdout, stderr) {
-    //     console.log("An error occurred: " + err.message, err, stderr);
-    //   })
-    //   .on("progress", function (progress) {
-    //     console.log("Processing: " + progress.percent + "% done");
-    //   })
-    //   .on("end", function (err, stdout, stderr) {
-    //     console.log("Finished processing!" /*, err, stdout, stderr*/);
-    //     // Lưu dữ liệu vào server xong. Giờ lưu thông tin vào server
-    //     let file = new File({
-    //       username: username,
-    //       file_upload: filename,
-    //       file_converted: filename + ".m3u8",
-    //     });
-    //     file.save().then(() => {
-    //       writeLog("dataServer1",req.username,"success","Upload File","Upload và convert file thành công!");
-    //       appendFileSync("./upload/" + username + "/output/" + filename + ".m3u8", "\n#NOTIFICATION=WELCOME TO MY VIDEO");
-    //       res.json({ status: 1, message: "Upload và convert file thành công!", outputVideo: process.env.URL + ":" + process.env.PORT_NGINX + "/upload/" + username + "/output/" + filename + ".m3u8"});
-    //     });
-    //   })
-    //   .run();
   } catch (err) {
     writeLog("dataServer1","server","error","Unknown",err);
   }

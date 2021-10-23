@@ -1,3 +1,3 @@
-export default addCommand = (array) => {
+export default function addCommand(array){
     return array.join(" ");
 }

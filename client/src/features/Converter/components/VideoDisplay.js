@@ -1,73 +1,8 @@
-import {useState, useRef} from 'react';
+import {useState, useEffect, useRef} from 'react';
 import ReactPlayer from "react-player";
 import PlayerControls from './PlayerControls';
 import screenfull from 'screenfull';
 import {Paper, Grid, Typography} from "@mui/material";
-
-var config = {
-  autoStartLoad: true,
-  startPosition: -1,
-  debug: false,
-  capLevelOnFPSDrop: false,
-  capLevelToPlayerSize: false,
-  defaultAudioCodec: undefined,
-  initialLiveManifestSize: 1,
-  maxBufferLength: 30,
-  maxMaxBufferLength: 600,
-  backBufferLength: Infinity,
-  maxBufferSize: 60 * 1000 * 1000,
-  maxBufferHole: 0.5,
-  highBufferWatchdogPeriod: 2,
-  nudgeOffset: 0.1,
-  nudgeMaxRetry: 3,
-  maxFragLookUpTolerance: 0.25,
-  liveSyncDurationCount: 3,
-  liveMaxLatencyDurationCount: Infinity,
-  liveDurationInfinity: false,
-  enableWorker: true,
-  enableSoftwareAES: true,
-  manifestLoadingTimeOut: 10000,
-  manifestLoadingMaxRetry: 1,
-  manifestLoadingRetryDelay: 1000,
-  manifestLoadingMaxRetryTimeout: 64000,
-  startLevel: undefined,
-  levelLoadingTimeOut: 10000,
-  levelLoadingMaxRetry: 4,
-  levelLoadingRetryDelay: 1000,
-  levelLoadingMaxRetryTimeout: 64000,
-  fragLoadingTimeOut: 20000,
-  fragLoadingMaxRetry: 6,
-  fragLoadingRetryDelay: 1000,
-  fragLoadingMaxRetryTimeout: 64000,
-  startFragPrefetch: false,
-  testBandwidth: true,
-  progressive: false,
-  lowLatencyMode: true,
-  fpsDroppedMonitoringPeriod: 5000,
-  fpsDroppedMonitoringThreshold: 0.2,
-  appendErrorMaxRetry: 3,
-  enableWebVTT: true,
-  enableIMSC1: true,
-  enableCEA708Captions: true,
-  stretchShortVideoTrack: false,
-  maxAudioFramesDrift: 1,
-  forceKeyFrameOnDiscontinuity: true,
-  abrEwmaFastLive: 3.0,
-  abrEwmaSlowLive: 9.0,
-  abrEwmaFastVoD: 3.0,
-  abrEwmaSlowVoD: 9.0,
-  abrEwmaDefaultEstimate: 500000,
-  abrBandWidthFactor: 0.95,
-  abrBandWidthUpFactor: 0.7,
-  abrMaxWithRealBitrate: false,
-  maxStarvationDelay: 4,
-  maxLoadingDelay: 4,
-  minAutoBitrate: 0,
-  emeEnabled: false,
-  widevineLicenseUrl: undefined,
-  licenseXhrSetup: undefined,
-  drmSystemOptions: {},
-};
 
 const format = (seconds) => {
   if(isNaN(seconds)) {
@@ -86,10 +21,12 @@ const format = (seconds) => {
 }
 
 let count = 0;
+var hls = null;
+var dash = null;
+var setting = null;
 
 function VideoDisplay({video}) {
   const [state, setState] = useState({
-    notification: "",
     playing: false,
     muted: true,
     volume: 0.5,
@@ -102,6 +39,7 @@ function VideoDisplay({video}) {
   const [timeDisplayFormat, setTimeDisplayFormat] = useState("normal");
   const [bookmarks, setBookmarks] = useState([]);
   const [activePip, setActivePip] = useState(false);
+  const [quality_array, setQualityArray] = useState([]);
 
   const playerRef = useRef(null);
   const containerRef = useRef(null);
@@ -110,6 +48,7 @@ function VideoDisplay({video}) {
 
   const togglePlay = () => {
     setState({...state, playing: !state.playing});
+    // dash.setQualityFor("video", dash.getQualityFor("video") + 1, true);
   }
 
   const handleRewind = () => {
@@ -138,6 +77,14 @@ function VideoDisplay({video}) {
     })
   }
 
+  const changeQuality = (index) => {
+    if(hls && hls.currentLevel !== index) hls.currentLevel = index;
+    else if(dash && dash.getQualityFor("video") !== index) {
+      dash.getSettings().streaming.abr.autoSwitchBitrate.video = false;
+      dash.setQualityFor("video", index, false);
+    }
+  }
+
   const toggleFullScreen = () => {
     setState({
       ...state, fullScreen: !state.fullScreen
@@ -146,13 +93,14 @@ function VideoDisplay({video}) {
   }
 
   const handleProgress = (progress) => {
+    // console.log(dash.getQualityFor("video"));
+
     if(count > 3){
       controlsRef.current.style.visibility = "hidden";
       count = 0;
     }
 
     if(controlsRef.current.style.visibility == "visible") {
-      console.log(count);
       count = count + 1;
     }
 
@@ -190,7 +138,7 @@ function VideoDisplay({video}) {
     const ctx = canvas.getContext("2d");
 
     // Cần tìm hiểu thêm:
-    ctx.drawImage(playerRef.current.getInternalPlayer(), 0, 0, canvas.width, canvas.height); 
+    ctx.drawImage(playerRef.current.gethls(), 0, 0, canvas.width, canvas.height); 
 
     const imageUrl = canvas.toDataURL();
     canvas.width = 0;
@@ -214,18 +162,36 @@ function VideoDisplay({video}) {
     setActivePip(!activePip);
   }
 
-  const handleReady = (e) => {
-    fetch(video)
-    .then(result => result.text())
-    .then(textValue => {
-      const array_text = textValue.split('\n');
-      const notification_fil = array_text.filter((oneLine) => oneLine.match("#NOTIFICATION"));
-      if(notification_fil.length > 0) {
-        const notification = notification_fil[0].split('=')[1];
-        setState({...state, notification});
-      }
-    });
+  const handleReady = () => {
+    hls = playerRef.current.getInternalPlayer('hls');
+    dash = playerRef.current.getInternalPlayer('dash');
+    // console.log(playerRef.current.getInternalPlayer('dash'));
+    
+    if(hls){
+      const level_array = hls.levels.map((one) => {
+        return parseInt(one.attrs.RESOLUTION.split("x")[1]);
+      });
+      console.log(hls.firstLevel);
+      setQualityArray(level_array);
+      hls.autoLevelEnabled = true;
+      hls.autoLevelCapping = -1;
+    }
+
+    if(dash) {
+      setting = dash.getSettings();
+      setting.streaming.abr.useDefaultABRRules = false;
+      const level_array = dash.getTracksFor("video")[0].bitrateList.map((one) => {
+        return parseInt(one.height);
+      });
+      setQualityArray(level_array);
+      setting.streaming.bufferTimeAtTopQuality = 10;
+      setting.streaming.bufferTimeAtTopQualityLongForm = 15;
+      setting.streaming.stableBufferTime = 10;
+      setting.streaming.fastSwitchEnabled = true;
+      dash.updateSettings(setting);
+    }
   }
+
   const currentTime = playerRef.current ? playerRef.current.getCurrentTime() : "00:00";
   const duration = playerRef.current ? playerRef.current.getDuration() : "00:00";
   
@@ -233,7 +199,7 @@ function VideoDisplay({video}) {
   const totalDuration = format(duration);
 
   return (
-    <div className="main-video-container">
+    <div className="main-container">
       <div 
         ref={containerRef} 
         className="video-container"
@@ -244,29 +210,21 @@ function VideoDisplay({video}) {
             ref={playerRef}
             width="inherit"
             height="inherit"
-            url={video}
+            // url="tos-teaser.mp4"
+            url="https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
             controls={false}
             playing={state.playing}
             muted={state.muted}
             volume={state.volume}
             playbackRate={state.playbackRate}
+            onReady={handleReady}
             onProgress={handleProgress}
             onEnded={handleEnded}
-            onReady={handleReady}
             pip={activePip}
             stopOnUnmount={true}
-            config={{
-              file: {
-                forceVideo: true,
-                forceHLS: true,
-                hlsOptions: {config},
-                forceDASH: true
-              }
-            }}
           >
           </ReactPlayer>
           <PlayerControls  
-            notification={state.notification}
             ref={controlsRef}
             togglePlay={togglePlay}
             playing={state.playing}
@@ -278,6 +236,7 @@ function VideoDisplay({video}) {
             changeVolume={changeVolume}
             playbackRate={state.playbackRate}
             changePlaybackRate={changePlaybackRate}
+            changeQuality={changeQuality}
             fullScreen={state.fullScreen}
             toggleFullScreen={toggleFullScreen}
             played={state.played}
@@ -289,6 +248,7 @@ function VideoDisplay({video}) {
             addBookmark={addBookmark}
             toggleActivePip={toggleActivePip}
             activePip={activePip}
+            quality_array={quality_array}
           />
         </div>
       </div>

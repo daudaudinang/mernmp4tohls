@@ -56,7 +56,7 @@ function Login(props) {
                     label="Remember me"
                  />
                 <Button type='submit' onClick={handleSubmit} color='primary' variant="contained" style={btnStyle} fullWidth>Sign In</Button>
-                <Grid contained style={flexStyle}>
+                <Grid container style={flexStyle}>
                     <Grid item><Typography>Don't have an account ?</Typography></Grid>
                     <Grid item><Link to="/register">Register Now</Link></Grid>
                 </Grid>

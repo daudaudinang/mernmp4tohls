@@ -31,9 +31,6 @@ const useStyles = makeStyles((theme) => ({
     tableHeaderCell: {
         fontWeight: 'bold',
     },
-    tablePagination: {
-        overflow:'visible'
-    }
 }));
 
 export const FileTable = ({dataFile, handleRemove}) => {
@@ -52,28 +49,6 @@ export const FileTable = ({dataFile, handleRemove}) => {
     };
 
     return (
-        // <table>
-        //     <thead>
-        //         <tr>
-        //             <th>ID</th>
-        //             <th>Username</th>
-        //             <th>File Upload</th>
-        //             <th>File Converted</th>
-        //             <th>Action</th>
-        //         </tr>
-        //     </thead>
-        //     <tbody>
-        //     {dataFile.map(oneVideo => 
-        //         <tr key={oneVideo._id}>
-        //             <td>{oneVideo._id}</td>
-        //             <td>{oneVideo.username}</td>
-        //             <td><a href={BASEURL + "/" + oneVideo._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneVideo.file_upload}</a></td>
-        //             <td><a href={BASEURL + "/" + oneVideo._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneVideo.file_converted}</a></td>
-        //             <td><button onClick={handleRemove} id={oneVideo._id} className="button-remove">Xoá</button></td>
-        //         </tr>
-        //     )}
-        //     </tbody>
-        // </table>
         <TableContainer component={Paper} elevation={10} className={classes.tableContainer} color="secondary">
         <Table className={classes.table} aria-label="simple table">
             <TableHead>
@@ -87,7 +62,7 @@ export const FileTable = ({dataFile, handleRemove}) => {
             </TableHead>
             <TableBody>
             {dataFile.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((oneFile) => (
-                <TableRow key={oneFile.name}>
+                <TableRow key={oneFile._id}>
                     <TableCell>
                         <Typography>{oneFile._id}</Typography>
                     </TableCell>
@@ -96,18 +71,24 @@ export const FileTable = ({dataFile, handleRemove}) => {
                     </TableCell>
                     <TableCell>
                         <Typography>
-                            <Link href={BASEURL + "/" + oneFile._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneFile.file_converted}</Link>
-                            <Button color='primary'>Xem File Upload</Button>
+                            <Grid container>
+                                <Grid item>
+                                    <Link href={BASEURL + "/" + oneFile._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneFile.file_upload}</Link>
+                                </Grid>
+                                <Grid item style={{color: "secondary"}}>
+                                    <Button color='primary'>Xem thử</Button>
+                                </Grid>
+                            </Grid>
                         </Typography>
                     </TableCell>
                     <TableCell>
                         <Typography>
-                            <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.file_upload}</Link>
-                            <Button color='primary'>Xem File Converted</Button>
+                            <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.file_converted}</Link>
+                            <Button color='primary'>Xem thử</Button>
                         </Typography>
                     </TableCell>
                     <TableCell>
-                        <Grid contained>
+                        <Grid container>
                             <Grid item><Button color='primary' onClick={handleRemove} id={oneFile._id}>Xoá</Button></Grid>
                         </Grid>
                     </TableCell>
@@ -115,16 +96,16 @@ export const FileTable = ({dataFile, handleRemove}) => {
             ))}
             </TableBody>
             <TableFooter>
-            <TablePagination
-                rowsPerPageOptions={[5, 10, 15]}
-                component="div"
-                count={dataFile.length}
-                rowsPerPage={rowsPerPage}
-                page={page}
-                onChangePage={handleChangePage}
-                onChangeRowsPerPage={handleChangeRowsPerPage}
-                className={classes.tablePagination}
-            />
+                <TableRow>
+                <TablePagination
+                    rowsPerPageOptions={[5, 10, 15]}
+                    count={dataFile.length}
+                    rowsPerPage={rowsPerPage}
+                    page={page}
+                    onPageChange={handleChangePage}
+                    onRowsPerPageChange={handleChangeRowsPerPage}
+                />
+                </TableRow>
             </TableFooter>
         </Table>
         </TableContainer>

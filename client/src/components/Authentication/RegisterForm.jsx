@@ -72,7 +72,7 @@ function Register(props) {
                     label="Remember me"
                  />
                 <Button type='submit' onClick={handleSubmit} color='primary' variant="contained" style={btnStyle} fullWidth>Sign In</Button>
-                <Grid contained style={flexStyle}>
+                <Grid container style={flexStyle}>
                     <Grid item><Typography>Have an account ?</Typography></Grid>
                     <Grid item><Link to="/login">Login Now</Link></Grid>
                 </Grid>

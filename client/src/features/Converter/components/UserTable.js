@@ -57,7 +57,7 @@ export const UserTable = ({dataUser, handleEdit, handleRemove}) => {
             </TableHead>
             <TableBody>
             {dataUser.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((oneUser) => (
-                <TableRow key={oneUser.name}>
+                <TableRow key={oneUser._id}>
                     <TableCell>
                         {/* <Grid item lg={2}>
                             <Avatar alt={row.name} src='.' className={classes.avatar}/>
@@ -88,15 +88,16 @@ export const UserTable = ({dataUser, handleEdit, handleRemove}) => {
             ))}
             </TableBody>
             <TableFooter>
-            <TablePagination
-                rowsPerPageOptions={[5, 10, 15]}
-                component="div"
-                count={dataUser.length}
-                rowsPerPage={rowsPerPage}
-                page={page}
-                onChangePage={handleChangePage}
-                onChangeRowsPerPage={handleChangeRowsPerPage}
-            />
+                <TableRow>
+                    <TablePagination
+                        rowsPerPageOptions={[5, 10, 15]}
+                        count={dataUser.length}
+                        rowsPerPage={rowsPerPage}
+                        page={page}
+                        onPageChange={handleChangePage}
+                        onRowsPerPageChange={handleChangeRowsPerPage}
+                    />
+                </TableRow>
             </TableFooter>
         </Table>
         </TableContainer>
