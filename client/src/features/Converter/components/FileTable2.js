@@ -16,6 +16,10 @@ import {
     Button,
     Link,
 } from '@mui/material';
+<<<<<<< HEAD
+=======
+import { height } from '@mui/system';
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
 
 const BASEURL = process.env.REACT_APP_BASE_URL;
 
@@ -31,9 +35,19 @@ const useStyles = makeStyles((theme) => ({
     tableHeaderCell: {
         fontWeight: 'bold',
     },
+<<<<<<< HEAD
 }));
 
 export const FileTable = ({dataFile, handleRemove}) => {
+=======
+    button: {
+        width: "20px",
+        height: "10px"
+    }
+}));
+
+export const FileTable = ({dataFile, handleRemove, setVideoView}) => {
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
 
     const classes = useStyles();
     const [page, setPage] = useState(0);
@@ -48,6 +62,13 @@ export const FileTable = ({dataFile, handleRemove}) => {
         setPage(0);
     };
 
+<<<<<<< HEAD
+=======
+    const handleChangeVideoView = (video) => {
+        setVideoView(video);
+        console.log(video);
+    }
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
     return (
         <TableContainer component={Paper} elevation={10} className={classes.tableContainer} color="secondary">
         <Table className={classes.table} aria-label="simple table">
@@ -70,10 +91,30 @@ export const FileTable = ({dataFile, handleRemove}) => {
                         <Typography>{oneFile.username}</Typography>
                     </TableCell>
                     <TableCell>
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:client/src/features/Converter/components/FileTable2.js
+                        <Typography>
+                            <Link href={BASEURL + "/" + oneFile._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneFile.file_upload}</Link>
+                        </Typography>
+                    </TableCell>
+                    <TableCell>
+                        <Typography>
+                            <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.file_converted}</Link>                                    
+                        </Typography>
+========
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
                         <Grid container>
                             <Grid item>
                                 <Link href={BASEURL + "/" + oneFile._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneFile.filename}</Link>
                             </Grid>
+<<<<<<< HEAD
+=======
+                            <Grid item style={{display: "inline-flex", flexWrap: "nowrap", alignItems: "center", height:"20px"}}>
+                                <Button variant="outlined" style={{height:"20px"}} color="error" onClick={() => handleChangeVideoView(BASEURL + "/upload/" + oneFile.username + "/" + oneFile.filename + "/" + oneFile.filename + "." + ((oneFile.formatInput == "hls") ? "m3u8" : ((oneFile.formatInput == "dash") ? "mpd" : oneFile.formatInput)))}>Xem thử</Button>
+                                <Button variant="contained" color="success" style={{height:"20px"}}>{oneFile.formatInput}</Button>
+                            </Grid>
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
                         </Grid>
                     </TableCell>
                     <TableCell>
@@ -81,7 +122,16 @@ export const FileTable = ({dataFile, handleRemove}) => {
                             <Grid item>
                                 <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.filename}</Link>
                             </Grid>
+<<<<<<< HEAD
                         </Grid>
+=======
+                            <Grid item style={{display: "inline-flex", flexWrap: "nowrap", alignItems: "center", height:"20px"}}>
+                                <Button variant="outlined" style={{height:"20px"}} color="error" onClick={() => handleChangeVideoView(BASEURL + "/upload/" + oneFile.username + "/" + oneFile.filename + "/Master." + ((oneFile.formatOutput == "hls") ? "m3u8" : ((oneFile.formatOutput == "dash") ? "mpd" : oneFile.formatOutput)))}>Xem thử</Button>
+                                <Button variant="contained" color="success" style={{height:"20px"}}>{oneFile.formatOutput}</Button>
+                            </Grid>
+                        </Grid>
+>>>>>>>> 718455087784e6d8fe07808111aab25d390aa418:client/src/features/Converter/components/FileTable.js
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
                     </TableCell>
                     <TableCell>
                         <Grid container>

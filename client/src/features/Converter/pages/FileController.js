@@ -5,7 +5,11 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import 'reactstrap';
 import { removeFile, saveFile } from './../../../actions/file';
+<<<<<<< HEAD
 import { FileTable } from './../components/FileTable2';
+=======
+import { FileTable } from '../components/FileTable2';
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
 
 function FileController(props) {
     const listFile = useSelector(state => state.file.listFile);

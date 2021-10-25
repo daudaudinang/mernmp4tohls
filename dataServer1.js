@@ -174,8 +174,17 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         break;
       
       case "vp9" :
+<<<<<<< HEAD
         codecOutput = 'libvpx-vp9';
       break;
+=======
+        outputCodec = 'libvpx-vp9';
+        break;
+
+      case "h265" :
+        outputCodec = 'libx265';
+       break;
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
 
       case "h265":
         codecOutput = 'libx265';
@@ -186,7 +195,14 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
     }
 
     if (!existsSync("./upload/" + username)) mkdirp("./upload/" + username);
+<<<<<<< HEAD
     if (!existsSync("./upload/" + username + "/" + filename)) mkdirp("./upload/" + username + "/" + filename);
+=======
+    if (!existsSync("./upload/" + username + "/input"))
+      mkdirp("./upload/" + username + "/input");
+    if (!existsSync("./upload/" + username + "/output"))
+      mkdirp("./upload/" + username + "/output");
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
 
     mv(
       "./upload/" + filename + "." + formatInput,
@@ -216,9 +232,15 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-max_muxing_queue_size 4096`,
         `-hls_time 5`,
         `-hls_list_size 0`,
+<<<<<<< HEAD
         `-hls_segment_filename ./upload/${username}/${filename}/%v-Segment%d.ts`,
         `-hls_base_url http://localhost:80/upload/${username}/${filename}/`,
         `./upload/${username}/${filename}/%v-SubMaster.m3u8`
+=======
+        `-hls_segment_filename ./upload/${username}/output/%v-${filename}-fileSequence%d.ts`,
+        `-hls_base_url http://localhost:80/upload/${username}/output/`,
+        `./upload/${username}/output/%v-${filename}.m3u8`
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
       ]);
       ffmpeg
       .run(command)
@@ -261,6 +283,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
     } else if(formatOutput === "dash") {
       let command = addCommand([`-y -i ./upload/${username}/${filename}/${filename}.${formatInput}`,
         `-map 0:v -map 0:v -map 0:v -map 0:v -map 0:a`,
+<<<<<<< HEAD
         `-c:a aac -c:v ${codecOutput}`,
         `-s:v:0 1920x1080 -b:v:0 4000k `,
         `-s:v:1 1280x720 -b:v:1 2500k `,
@@ -268,6 +291,16 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-s:v:3 320x180 -b:v:3 300k `,
         `-use_timeline 0`, 
         `-use_template 0`,
+=======
+        `-c:a aac -c:v ${outputCodec}`,
+        `-s:v:0 2560x1440 -b:v:0 8000k`,
+        `-s:v:1 1920x1080 -b:v:1 6000k`,
+        `-s:v:2 1280x720 -b:v:2 3000k`,
+        `-s:v:3 320x180 -b:v:3 80k`,
+        `-profile:v:1 baseline -profile:v:2 baseline -profile:v:3 baseline -profile:v:0 main`,
+        `-use_timeline 1`, 
+        `-use_template 1`,
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
         `-adaptation_sets "id=0,streams=v id=1,streams=a"`,
         `-f dash`,
         `./upload/${username}/${filename}/Master.mpd`
@@ -276,6 +309,8 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
       ffmpeg
       .run(command)
       .then(result => {
+        console.log(outputCodec);
+        console.log(result);
         let file = new File({
           username: username,
           filename: filename,
@@ -289,7 +324,12 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         });
       })
       .catch(err => {
+<<<<<<< HEAD
         writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!" + "\n" + err);
+=======
+        console.log(outputCodec);
+        writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!");
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
         res.json({ status: 0, message: "Convert file thất bại!"});
       });
     }

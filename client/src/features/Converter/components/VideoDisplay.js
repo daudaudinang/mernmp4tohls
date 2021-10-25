@@ -185,7 +185,12 @@ function VideoDisplay({video}) {
             ref={playerRef}
             width="inherit"
             height="inherit"
+<<<<<<< HEAD
             url={video}
+=======
+            // url="tos-teaser.mp4"
+            url="http://localhost:80/upload/admin@admin/output/1635094659714_tos-teaser.mp4-master.m3u8"
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
             controls={false}
             playing={state.playing}
             muted={state.muted}

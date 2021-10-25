@@ -778,6 +778,7 @@
 [23/10/2021, 11:00:34][server][success] Start Server: AuthServer listening on: 3001
 [23/10/2021, 11:08:21][server][success] Start Server: AuthServer listening on: 3001
 [23/10/2021, 11:15:35][server][success] Start Server: AuthServer listening on: 3001
+<<<<<<< HEAD
 [25/10/2021, 09:08:54][server][success] Start Server: AuthServer listening on: 3001
 [25/10/2021, 09:11:05][server][success] Start Server: AuthServer listening on: 3001
 [25/10/2021, 09:13:37][server][success] Start Server: AuthServer listening on: 3001
@@ -823,3 +824,17 @@
 [25/10/2021, 17:13:13][server][success] Start Server: AuthServer listening on: 3001
 [25/10/2021, 17:37:59][server][success] Start Server: AuthServer listening on: 3001
 [25/10/2021, 17:39:16][server][success] Start Server: AuthServer listening on: 3001
+=======
+[24/10/2021, 20:04:01][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 20:12:54][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 20:25:02][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 21:07:03][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 21:18:37][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 21:21:32][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 21:24:20][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 21:57:19][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 23:09:15][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 23:29:15][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 23:38:03][server][success] Start Server: AuthServer listening on: 3001
+[24/10/2021, 23:56:10][server][success] Start Server: AuthServer listening on: 3001
+>>>>>>> 718455087784e6d8fe07808111aab25d390aa418
