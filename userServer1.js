@@ -52,14 +52,6 @@ app.post("/register", function (req, res, next) {
           listFile: [],
         });
         user.save().then(() => {
-          let dir1 = "./upload/" + req.body.username;
-          let dir2 = dir1 + "/input";
-          let dir3 = dir1 + "/output";
-          let dir4 = dir1 + "/segment";
-          mkdirp(dir1);
-          mkdirp(dir2);
-          mkdirp(dir3);
-          mkdirp(dir4);
           writeLog("userServer1","guest","success","Register","Tạo tài khoản thành công!");
           res.json({ status: 1, message: "Tạo tài khoản thành công!" });
         });
@@ -131,14 +123,6 @@ app.post('/addUser', authenToken, authenModifier, function (req, res, next) {
           listFile: []
         });
         user.save().then(function () {
-          let dir1 = './upload/'+ req.body.username;
-          let dir2 = dir1 + '/input';
-          let dir3 = dir1 + '/output';
-          let dir4 = dir1 + '/segment';
-          mkdirp(dir1);
-          mkdirp(dir2);
-          mkdirp(dir3);
-          mkdirp(dir4);
           writeLog("userServer1",req.username,"success","Add User","Tạo tài khoản thành công!");
           res.json({ status: 1, message: "Tạo tài khoản thành công!" });
         });

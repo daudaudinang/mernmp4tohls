@@ -5,12 +5,12 @@ const initialState = {
 const loginReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'LOGIN':{
-            const newState = {...state, isLogin: true};
+            const newState = {isLogin: true};
             return newState;
         }
 
         case 'LOGOUT': {
-            const newState = {...state, isLogin: false};
+            const newState = {isLogin: false};
             return newState;
         }
         

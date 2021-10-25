@@ -2,7 +2,6 @@ import {useState, useEffect, useRef} from 'react';
 import ReactPlayer from "react-player";
 import PlayerControls from './PlayerControls';
 import screenfull from 'screenfull';
-import {Paper, Grid, Typography} from "@mui/material";
 
 const format = (seconds) => {
   if(isNaN(seconds)) {
@@ -37,13 +36,11 @@ function VideoDisplay({video}) {
   });
 
   const [timeDisplayFormat, setTimeDisplayFormat] = useState("normal");
-  const [bookmarks, setBookmarks] = useState([]);
   const [activePip, setActivePip] = useState(false);
   const [quality_array, setQualityArray] = useState([]);
 
   const playerRef = useRef(null);
   const containerRef = useRef(null);
-  const canvasRef = useRef(null);
   const controlsRef = useRef(null);
 
   const togglePlay = () => {
@@ -93,7 +90,6 @@ function VideoDisplay({video}) {
   }
 
   const handleProgress = (progress) => {
-    // console.log(dash.getQualityFor("video"));
 
     if(count > 3){
       controlsRef.current.style.visibility = "hidden";
@@ -130,25 +126,6 @@ function VideoDisplay({video}) {
     );
   }
 
-  const addBookmark = () => {
-    const canvas = canvasRef.current;
-    canvas.width = 160;
-    canvas.height = 90;
-
-    const ctx = canvas.getContext("2d");
-
-    // Cần tìm hiểu thêm:
-    ctx.drawImage(playerRef.current.gethls(), 0, 0, canvas.width, canvas.height); 
-
-    const imageUrl = canvas.toDataURL();
-    canvas.width = 0;
-    canvas.height = 0;
-    setBookmarks([
-      ...bookmarks,
-      {time: currentTime, display: elapsedTime, image: imageUrl}
-    ])
-  }
-
   const handleEnded = () => {
     setState({...state, playing: false})
   }
@@ -163,33 +140,31 @@ function VideoDisplay({video}) {
   }
 
   const handleReady = () => {
-    hls = playerRef.current.getInternalPlayer('hls');
-    dash = playerRef.current.getInternalPlayer('dash');
-    // console.log(playerRef.current.getInternalPlayer('dash'));
+    // console.log(playerRef.current.getInternalPlayer().src);
+    // hls = playerRef.current.getInternalPlayer('hls');
+    // dash = playerRef.current.getInternalPlayer('dash');
     
-    if(hls){
-      const level_array = hls.levels.map((one) => {
-        return parseInt(one.attrs.RESOLUTION.split("x")[1]);
-      });
-      console.log(hls.firstLevel);
-      setQualityArray(level_array);
-      hls.autoLevelEnabled = true;
-      hls.autoLevelCapping = -1;
-    }
+    // if(hls){
+    //   const level_array = hls.levels.map((one) => {
+    //     return parseInt(one.attrs.RESOLUTION.split("x")[1]);
+    //   });
+    //   console.log(hls.firstLevel);
+    //   setQualityArray(level_array);
+    // }
 
-    if(dash) {
-      setting = dash.getSettings();
-      setting.streaming.abr.useDefaultABRRules = false;
-      const level_array = dash.getTracksFor("video")[0].bitrateList.map((one) => {
-        return parseInt(one.height);
-      });
-      setQualityArray(level_array);
-      setting.streaming.bufferTimeAtTopQuality = 10;
-      setting.streaming.bufferTimeAtTopQualityLongForm = 15;
-      setting.streaming.stableBufferTime = 10;
-      setting.streaming.fastSwitchEnabled = true;
-      dash.updateSettings(setting);
-    }
+    // if(dash) {
+    //   setting = dash.getSettings();
+    //   setting.streaming.abr.useDefaultABRRules = false;
+    //   const level_array = dash.getTracksFor("video")[0].bitrateList.map((one) => {
+    //     return parseInt(one.height);
+    //   });
+    //   setQualityArray(level_array);
+    //   setting.streaming.bufferTimeAtTopQuality = 10;
+    //   setting.streaming.bufferTimeAtTopQualityLongForm = 15;
+    //   setting.streaming.stableBufferTime = 10;
+    //   setting.streaming.fastSwitchEnabled = true;
+    //   dash.updateSettings(setting);
+    // }
   }
 
   const currentTime = playerRef.current ? playerRef.current.getCurrentTime() : "00:00";
@@ -210,8 +185,7 @@ function VideoDisplay({video}) {
             ref={playerRef}
             width="inherit"
             height="inherit"
-            // url="tos-teaser.mp4"
-            url="https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+            url={video}
             controls={false}
             playing={state.playing}
             muted={state.muted}
@@ -245,27 +219,12 @@ function VideoDisplay({video}) {
             elapsedTime={elapsedTime}
             totalDuration={totalDuration}
             onChangeDisplayFormat={handleChangeDisplayFormat}
-            addBookmark={addBookmark}
             toggleActivePip={toggleActivePip}
             activePip={activePip}
             quality_array={quality_array}
           />
         </div>
       </div>
-        <Grid container style={{marginTop:20, cursor: "pointer"}} className="bookmarks" spacing={3}>
-          {bookmarks.map((bookmark, index) => 
-            <Grid onClick={() => playerRef.current.seekTo(bookmark.time)} item key={index}>
-              <Paper>
-                <img crossOrigin="anomyous" src={bookmark.image} />
-                <Typography>
-                  Bookmark at {format(bookmark.time)}
-                </Typography>
-              </Paper>
-            </Grid>
-          )}
-        </Grid>
-
-        <canvas ref={canvasRef} />
     </div>
   );
 }

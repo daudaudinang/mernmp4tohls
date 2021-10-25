@@ -59,14 +59,6 @@ export const UserTable = ({dataUser, handleEdit, handleRemove}) => {
             {dataUser.slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage).map((oneUser) => (
                 <TableRow key={oneUser._id}>
                     <TableCell>
-                        {/* <Grid item lg={2}>
-                            <Avatar alt={row.name} src='.' className={classes.avatar}/>
-                        </Grid>
-                        <Grid item lg={10}>
-                            <Typography className={classes.name}>{row.name}</Typography>
-                            <Typography color="textSecondary" variant="body2">{row.email}</Typography>
-                            <Typography color="textSecondary" variant="body2">{row.phone}</Typography>
-                        </Grid> */}
                         <Typography>{oneUser._id}</Typography>
                     </TableCell>
                     <TableCell>
@@ -79,7 +71,7 @@ export const UserTable = ({dataUser, handleEdit, handleRemove}) => {
                         <Typography>{oneUser.password}</Typography>
                     </TableCell>
                     <TableCell>
-                        <Grid contained>
+                        <Grid container>
                             <Grid item><Button color='primary' onClick={handleEdit}><Link to={{pathname:`/UserController/edit/${oneUser._id}`}}> Sửa </Link></Button></Grid>
                             <Grid item><Button color='primary' onClick={handleRemove} id={oneUser._id}>Xoá</Button></Grid>
                         </Grid>
@@ -96,7 +88,7 @@ export const UserTable = ({dataUser, handleEdit, handleRemove}) => {
                         page={page}
                         onPageChange={handleChangePage}
                         onRowsPerPageChange={handleChangeRowsPerPage}
-                    />
+                    />  
                 </TableRow>
             </TableFooter>
         </Table>

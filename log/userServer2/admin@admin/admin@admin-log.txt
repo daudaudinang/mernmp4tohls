@@ -19,3 +19,21 @@
 
 ######[22/10/2021, 16:26:41][admin@admin][notification] REQUEST: GET LIST USER
 [22/10/2021, 16:26:42][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 09:17:53][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 09:17:53][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 09:38:42][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 09:38:42][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 10:02:26][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 10:02:26][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 10:05:34][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 10:05:34][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 11:00:49][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 11:00:50][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!
+
+######[25/10/2021, 11:01:09][admin@admin][notification] REQUEST: GET LIST USER
+[25/10/2021, 11:01:10][admin@admin][success] Get UserList: Lấy danh sách người dùng thành công!

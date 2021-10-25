@@ -15,73 +15,49 @@ import FileController from "./features/Converter/pages/FileController";
 import { Logout } from './features/Converter/pages/Logout';
 import UserController from "./features/Converter/pages/UserController";
 
-window.onunload = () => {
-  // Clear the local storage
-  localStorage.clear();
-}
-
 function App() {
   const isLogin = useSelector((state) => state.login.isLogin);
-  const [access_token, setAccess_token] = useState(null);
   const [message, setMessage] = useState("");
   const [account_type, setAccount_type] = useState(null);
   const dispatch = useDispatch();
 
   useEffect(() => {
     // Nếu người dùng cố tình refresh lại trình duyệt:
-    if(localStorage.getItem("account_type")) {
-      setAccount_type(localStorage.getItem("account_type"));
-    }
+    setInterval(() => {
+      if(!localStorage.getItem("isLogin") || localStorage.getItem("isLogin") === false) {
+        setAccount_type(null);
 
-    if(localStorage.getItem("refresh_token")) {
-      const refreshToken = async () => {
-        authApi.refreshToken()
-          .then((response) => {
-            if(response.status === 1) {
-              localStorage.setItem("access_token", response.access_token);
-              setAccess_token(response.access_token);
-            }
-            else console.log("Refresh Token Error!");
-          })
-          .catch((err) => console.log(err));
-      }
-
-      refreshToken();
-    }
-  },[])
-
-  useEffect(() => {
-    setTimeout(() => {
-      authApi.refreshToken()
-      .then((response) => {
-        if(response.status === 1) {
-          localStorage.setItem("access_token", response.access_token);
-          setAccess_token(response.access_token);
+        dispatch(resetListFile());
+        dispatch(resetListUser());
+    
+        localStorage.clear();
+        const actionLogout = logout();
+        dispatch(actionLogout);  
+      } else {
+        if(localStorage.getItem("account_type")) {
+          setAccount_type(localStorage.getItem("account_type"));
         }
-        else console.log("Refresh Token Error!");
-      })
-      .catch((err) => console.log(err));
-    }, 30000);
-  }, [isLogin, access_token]);
+        const actionLogin = login();
+        dispatch(actionLogin);
+      }
+    }, 2000); // Mỗi sau 2s check lại trạng thái login 1 lần, nếu 2 tab cùng đc mở, 1 tab nhấn đăng xuất thì tab còn lại cũng sẽ bị out
+  },[dispatch]);
 
   const handleLogin = async (dataLogin) => {
     await authApi.login(dataLogin)
       .then((response) => {
         setMessage(response.message);
         if(response.status === 1){
-          const actionLogin = login(dataLogin);
+          const actionLogin = login();
           dispatch(actionLogin);
           
-          setAccess_token(response.access_token);
           // reset Message báo đăng nhập nếu đăng nhập thành công
           setMessage("");
           setAccount_type(response.account_type);
 
           localStorage.setItem("isLogin", true);
           localStorage.setItem("account_type", response.account_type);
-          localStorage.setItem("username", response.username);
           localStorage.setItem("access_token", response.access_token);
-          localStorage.setItem("refresh_token", response.refresh_token);
         }
       })
       .catch((err) => console.log(err));
@@ -96,20 +72,14 @@ function App() {
   };
 
   const handleLogout = async() => {
-    await authApi.logout()
-    .then((response) => {
-      if(response.status === 1) {
-        setAccess_token(null);
-        setAccount_type(null);
+    setAccount_type(null);
 
-        dispatch(resetListFile());
-        dispatch(resetListUser());
+    dispatch(resetListFile());
+    dispatch(resetListUser());
 
-        localStorage.clear();
-        const actionLogout = logout();
-        dispatch(actionLogout);
-      }    
-    })
+    localStorage.clear();
+    const actionLogout = logout();
+    dispatch(actionLogout);  
   };
 
   if (isLogin) {
@@ -148,13 +118,13 @@ function App() {
       <BrowserRouter>
         <p className="message">{message}</p>
         <Switch>
-          <Route path="/login">
+          <Route path="/loginForm">
             <LoginForm handleLogin={handleLogin} />
           </Route>
-          <Route path="/register">
+          <Route path="/registerForm">
             <RegisterForm handleRegister={handleRegister} />
           </Route>
-          <Redirect to="/login" />
+          <Redirect to="/loginForm" />
         </Switch>
       </BrowserRouter>
     );

@@ -16,6 +16,7 @@ import {
     Button,
     Link,
 } from '@mui/material';
+import { height } from '@mui/system';
 
 const BASEURL = process.env.REACT_APP_BASE_URL;
 
@@ -31,9 +32,13 @@ const useStyles = makeStyles((theme) => ({
     tableHeaderCell: {
         fontWeight: 'bold',
     },
+    button: {
+        width: "20px",
+        height: "10px"
+    }
 }));
 
-export const FileTable = ({dataFile, handleRemove}) => {
+export const FileTable = ({dataFile, handleRemove, setVideoView}) => {
 
     const classes = useStyles();
     const [page, setPage] = useState(0);
@@ -48,6 +53,10 @@ export const FileTable = ({dataFile, handleRemove}) => {
         setPage(0);
     };
 
+    const handleChangeVideoView = (video) => {
+        setVideoView(video);
+        console.log(video);
+    }
     return (
         <TableContainer component={Paper} elevation={10} className={classes.tableContainer} color="secondary">
         <Table className={classes.table} aria-label="simple table">
@@ -70,22 +79,26 @@ export const FileTable = ({dataFile, handleRemove}) => {
                         <Typography>{oneFile.username}</Typography>
                     </TableCell>
                     <TableCell>
-                        <Typography>
-                            <Grid container>
-                                <Grid item>
-                                    <Link href={BASEURL + "/" + oneFile._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneFile.file_upload}</Link>
-                                </Grid>
-                                <Grid item style={{color: "secondary"}}>
-                                    <Button color='primary'>Xem thử</Button>
-                                </Grid>
+                        <Grid container>
+                            <Grid item>
+                                <Link href={BASEURL + "/" + oneFile._id + "/tai-file-upload"} target="_blank" rel="noopener noreferrer">{oneFile.filename}</Link>
                             </Grid>
-                        </Typography>
+                            <Grid item style={{display: "inline-flex", flexWrap: "nowrap", alignItems: "center", height:"20px"}}>
+                                <Button variant="outlined" style={{height:"20px"}} color="error" onClick={() => handleChangeVideoView(BASEURL + "/upload/" + oneFile.username + "/" + oneFile.filename + "/" + oneFile.filename + "." + ((oneFile.formatInput == "hls") ? "m3u8" : ((oneFile.formatInput == "dash") ? "mpd" : oneFile.formatInput)))}>Xem thử</Button>
+                                <Button variant="contained" color="success" style={{height:"20px"}}>{oneFile.formatInput}</Button>
+                            </Grid>
+                        </Grid>
                     </TableCell>
                     <TableCell>
-                        <Typography>
-                            <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.file_converted}</Link>
-                            <Button color='primary'>Xem thử</Button>
-                        </Typography>
+                        <Grid container>
+                            <Grid item>
+                                <Link href={BASEURL + "/" + oneFile._id + "/tai-file-convert"} target="_blank" rel="noopener noreferrer">{oneFile.filename}</Link>
+                            </Grid>
+                            <Grid item style={{display: "inline-flex", flexWrap: "nowrap", alignItems: "center", height:"20px"}}>
+                                <Button variant="outlined" style={{height:"20px"}} color="error" onClick={() => handleChangeVideoView(BASEURL + "/upload/" + oneFile.username + "/" + oneFile.filename + "/Master." + ((oneFile.formatOutput == "hls") ? "m3u8" : ((oneFile.formatOutput == "dash") ? "mpd" : oneFile.formatOutput)))}>Xem thử</Button>
+                                <Button variant="contained" color="success" style={{height:"20px"}}>{oneFile.formatOutput}</Button>
+                            </Grid>
+                        </Grid>
                     </TableCell>
                     <TableCell>
                         <Grid container>
@@ -97,14 +110,14 @@ export const FileTable = ({dataFile, handleRemove}) => {
             </TableBody>
             <TableFooter>
                 <TableRow>
-                <TablePagination
-                    rowsPerPageOptions={[5, 10, 15]}
-                    count={dataFile.length}
-                    rowsPerPage={rowsPerPage}
-                    page={page}
-                    onPageChange={handleChangePage}
-                    onRowsPerPageChange={handleChangeRowsPerPage}
-                />
+                    <TablePagination
+                        rowsPerPageOptions={[5, 10, 15]}
+                        count={dataFile.length}
+                        rowsPerPage={rowsPerPage}
+                        page={page}
+                        onPageChange={handleChangePage}
+                        onRowsPerPageChange={handleChangeRowsPerPage}
+                    />  
                 </TableRow>
             </TableFooter>
         </Table>

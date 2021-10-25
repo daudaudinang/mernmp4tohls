@@ -4,8 +4,9 @@ mongoose.Promise = global.Promise;
 
 var File = new Schema({
   username: String,
-  file_upload: String,
-  file_converted: String,
+  filename: String,
+  formatInput: String,
+  formatOutput: String,
 },{collection : 'file', usePushEach: true });
 
 export default mongoose.model('File', File);

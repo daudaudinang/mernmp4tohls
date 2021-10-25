@@ -12,7 +12,6 @@ import { makeStyles } from "@mui/styles";
 import Slider from "@mui/material/Slider";
 import { styled } from "@mui/material/styles";
 import Tooltip from "@mui/material/Tooltip";
-import BookmarkIcon from "@mui/icons-material/Bookmark";
 import PauseIcon from "@mui/icons-material/Pause";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import FastRewindIcon from "@mui/icons-material/FastRewind";
@@ -105,7 +104,6 @@ export default forwardRef((props, ref) => {
       elapsedTime,
       totalDuration,
       onChangeDisplayFormat,
-      addBookmark,
       quality_array,
       toggleActivePip
     } = props;
@@ -142,12 +140,8 @@ export default forwardRef((props, ref) => {
         <div className="control-wrapper" ref={ref}>
             <div className="top-control">
             <Typography variant="h5" style={{ color: "#ffffff" }}>
-                Video Title
+      
             </Typography>
-            <Button onClick={addBookmark} variant="text" style={{ color: "#ffffff" }}>
-                <BookmarkIcon />
-                BOOKMARK
-            </Button>
             </div>
             <div className="medium-control">
               <div className="medium-left" onClick={handleRewind}>

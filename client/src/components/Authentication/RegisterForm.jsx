@@ -37,23 +37,6 @@ function Register(props) {
     const flexStyle = {display: 'flex', flexDirection: 'row', justifyContent: 'space-around'}
 
     return(
-        // <div className="form-log">
-        //     <form onSubmit={handleSubmit}>
-        //         <div className="form-inner">
-        //             <h2>Register</h2>
-        //             <div className="form-group">
-        //                 <label htmlFor="username">Username: </label>
-        //                 <input type="text" name="username" id="username" onChange={changeUsername}/>
-        //             </div>
-        //             <div className="form-group">
-        //                 <label htmlFor="password">password: </label>
-        //                 <input type="password" name="password" id="password" onChange={changePassword}/>
-        //             </div>
-        //             <button type="submit">Đăng ký</button>
-        //         </div>
-        //     </form>
-        //     <Link to="/login">Đã có tài khoản? Đăng nhập ngay</Link>
-        // </div>
         <Grid>
             <Paper elevation={10} style={paperStyle}>
                 <Grid align='center'>
@@ -74,7 +57,7 @@ function Register(props) {
                 <Button type='submit' onClick={handleSubmit} color='primary' variant="contained" style={btnStyle} fullWidth>Sign In</Button>
                 <Grid container style={flexStyle}>
                     <Grid item><Typography>Have an account ?</Typography></Grid>
-                    <Grid item><Link to="/login">Login Now</Link></Grid>
+                    <Grid item><Link to="/loginForm">Login Now</Link></Grid>
                 </Grid>
             </Paper>
         </Grid>

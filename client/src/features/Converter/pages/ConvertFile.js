@@ -15,6 +15,7 @@ function ConvertFile(props) {
     const dispatch = useDispatch();
 
     const [video, setVideo] = useState({data: null, status: 0}); // status: 0: Chưa có file upload, 1: Đã có file upload, chưa convert, 2: Đã convert hoàn thành
+    const [videoView, setVideoView] = useState("https://bitmovin-a.akamaihd.net/content/MI201109210084_1/mpds/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.mpd");
     const [message, setMessage] = useState(null);
     const [changeData, setChangeData] = useState(0);
     const [outputOption, setOutputOption] = useState({videoCodec: "h264", videoFormat: "hls"});
@@ -48,7 +49,6 @@ function ConvertFile(props) {
         formData.append("video", video.data);
         formData.append("videoCodec",outputOption.videoCodec);
         formData.append("videoFormat",outputOption.videoFormat);
-        console.log(outputOption);
         (async () => {
             setMessage("Đang convert... Vui lòng chờ!");
             FileApi.uploadFile(formData,outputOption)
@@ -77,20 +77,23 @@ function ConvertFile(props) {
   const handleRemove = (event) => {
     event.preventDefault();
     // Đầu tiên, xoá nó khỏi array trong state
+    const oldList = listFile;
     const newList = listFile.filter(item => item._id !== event.target.id);
 
     const actionRemoveFile = removeFile(newList);
     dispatch(actionRemoveFile);
     
-    (async () => {
-        await FileApi.removeFile(event.target.id)
-        .then((response) => {
-            setMessage(response.message);
-        })
-        .catch((err) => {
-            console.log(err);
-        })
-    })();
+    FileApi.removeFile(event.target.id)
+    .then((response) => {
+        if(response.status === 0) {
+            const actionRemoveFile = removeFile(oldList);
+            dispatch(actionRemoveFile);
+        }
+        setMessage(response.message);
+    })
+    .catch((err) => {
+        console.log(err);
+    }); 
   }
 
     return (
@@ -116,6 +119,7 @@ function ConvertFile(props) {
                                 <select onChange={handleChangeOptionVideoOutput} name="videoCodec" value={outputOption.videoCodec}>
                                     <option value="h264">H.264</option>
                                     <option value="vp9">VP9</option>
+                                    <option value="h265">H.265</option>
                                 </select>
                             </Grid>
                             
@@ -125,33 +129,13 @@ function ConvertFile(props) {
                         </Grid>
                     </Grid>
                     <Grid item>
-                        <VideoDisplay video={"Haha"}/>
+                        <VideoDisplay video={videoView}/>
                     </Grid>
                 </Grid>
                 
             </Grid>
-            <Grid item style={styleHeader} xs={6}><FileTable dataFile={listFile} handleRemove={handleRemove}/></Grid>
+            <Grid item style={styleHeader} xs={6}><FileTable dataFile={listFile} handleRemove={handleRemove} setVideoView={setVideoView}/></Grid>
         </Grid>
-        {/* <div className="main-container-convert-file">
-            <div className="form-upload-file">
-                <form onSubmit={handleSubmit}>
-                    <div className="container-file">
-                        <input type="file" onChange={handleChangeVideo}/>
-                        <button type="submit">Convert File</button>
-                    </div>
-                </form>
-            </div>
-            {(video.status === 2) 
-                ? 
-                <div className="video-preview">
-                    <VideoDisplay video={outputVideo}/>
-                </div>
-                : <div></div>
-            }
-            <div className="list-file">
-                <FileTable dataFile={listFile} handleRemove={handleRemove}/>
-            </div>
-        </div> */}
         </>
     )
 }

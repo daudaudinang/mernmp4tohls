@@ -58,7 +58,7 @@ function Login(props) {
                 <Button type='submit' onClick={handleSubmit} color='primary' variant="contained" style={btnStyle} fullWidth>Sign In</Button>
                 <Grid container style={flexStyle}>
                     <Grid item><Typography>Don't have an account ?</Typography></Grid>
-                    <Grid item><Link to="/register">Register Now</Link></Grid>
+                    <Grid item><Link to="/registerForm">Register Now</Link></Grid>
                 </Grid>
             </Paper>
         </Grid>

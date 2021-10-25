@@ -18,3 +18,10 @@ export const resetListFile = () => {
         payload: []
     }
 }
+
+export const resetListUser = () => {
+    return {
+        type: 'RESET_LIST_USER',
+        payload: []
+    }
+}
