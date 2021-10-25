@@ -52,11 +52,7 @@ app.post("/register", function (req, res, next) {
           listFile: [],
         });
         user.save().then(() => {
-<<<<<<< HEAD
-          writeLog("userServer1","guest","success","Register","Tạo tài khoản thành công!");
-=======
           writeLog("userServer1","guest","success","Register","Tạo tài khoản thành công!" + req.body.username);
->>>>>>> 718455087784e6d8fe07808111aab25d390aa418
           res.json({ status: 1, message: "Tạo tài khoản thành công!" });
         });
       }
@@ -127,11 +123,7 @@ app.post('/addUser', authenToken, authenModifier, function (req, res, next) {
           listFile: []
         });
         user.save().then(function () {
-<<<<<<< HEAD
-          writeLog("userServer1",req.username,"success","Add User","Tạo tài khoản thành công!");
-=======
           writeLog("userServer1",req.username,"success","Add User","Tạo tài khoản thành công!" + req.body.username);
->>>>>>> 718455087784e6d8fe07808111aab25d390aa418
           res.json({ status: 1, message: "Tạo tài khoản thành công!" });
         });
       }
