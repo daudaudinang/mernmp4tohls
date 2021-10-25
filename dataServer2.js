@@ -189,14 +189,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
     }
 
     if (!existsSync("./upload/" + username)) mkdirp("./upload/" + username);
-<<<<<<< HEAD
     if (!existsSync("./upload/" + username + "/" + filename)) mkdirp("./upload/" + username + "/" + filename);
-=======
-    if (!existsSync("./upload/" + username + "/input"))
-      mkdirp("./upload/" + username + "/input");
-    if (!existsSync("./upload/" + username + "/output"))
-      mkdirp("./upload/" + username + "/output");
->>>>>>> 718455087784e6d8fe07808111aab25d390aa418
 
     mv(
       "./upload/" + filename + "." + formatInput,
@@ -226,15 +219,9 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-max_muxing_queue_size 4096`,
         `-hls_time 5`,
         `-hls_list_size 0`,
-<<<<<<< HEAD
         `-hls_segment_filename ./upload/${username}/${filename}/%v-Segment%d.ts`,
         `-hls_base_url http://localhost:80/upload/${username}/${filename}/`,
         `./upload/${username}/${filename}/%vSubMaster.m3u8`
-=======
-        `-hls_segment_filename ./upload/${username}/output/%v-${filename}-fileSequence%d.ts`,
-        `-hls_base_url http://localhost:80/upload/${username}/segment/`,
-        `./upload/${username}/output/%v-${filename}.m3u8`
->>>>>>> 718455087784e6d8fe07808111aab25d390aa418
       ]);
       ffmpeg
       .run(command)
@@ -307,12 +294,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         });
       })
       .catch(err => {
-<<<<<<< HEAD
         writeLog("dataServer2",req.username,"error","Upload File","Convert file thất bại!" + "\n" + err);
-=======
-        console.log(outputCodec);
-        writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!\n" + err);
->>>>>>> 718455087784e6d8fe07808111aab25d390aa418
         res.json({ status: 0, message: "Convert file thất bại!"});
       });
     }
