@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=4540800,RESOLUTION=2560x1440
+http://localhost:80/upload/admin@admin/output/0-1635093563422_tos-teaser.mp4.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=2340800,RESOLUTION=1920x1080
+http://localhost:80/upload/admin@admin/output/1-1635093563422_tos-teaser.mp4.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=1240800,RESOLUTION=1280x720
+http://localhost:80/upload/admin@admin/output/2-1635093563422_tos-teaser.mp4.m3u8
+
+#EXT-X-STREAM-INF:BANDWIDTH=250800,RESOLUTION=640x360
+http://localhost:80/upload/admin@admin/output/3-1635093563422_tos-teaser.mp4.m3u8
+

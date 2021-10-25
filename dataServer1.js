@@ -200,7 +200,11 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
       
       case "vp9" :
         outputCodec = 'libvpx-vp9';
-      break;
+        break;
+
+      case "h265" :
+        outputCodec = 'libx265';
+       break;
 
       default:
         outputCodec = 'libx264';
@@ -209,8 +213,6 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
     if (!existsSync("./upload/" + username)) mkdirp("./upload/" + username);
     if (!existsSync("./upload/" + username + "/input"))
       mkdirp("./upload/" + username + "/input");
-    if (!existsSync("./upload/" + username + "/segment"))
-      mkdirp("./upload/" + username + "/segment");
     if (!existsSync("./upload/" + username + "/output"))
       mkdirp("./upload/" + username + "/output");
 
@@ -240,10 +242,10 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-master_pl_name ${filename}-master.m3u8`,
         `-f hls`,
         `-max_muxing_queue_size 4096`,
-        `-hls_time 10`,
+        `-hls_time 5`,
         `-hls_list_size 0`,
-        `-hls_segment_filename ./upload/${username}/segment/%v-${filename}-fileSequence%d.ts`,
-        `-hls_base_url http://localhost:80/upload/${username}/segment/`,
+        `-hls_segment_filename ./upload/${username}/output/%v-${filename}-fileSequence%d.ts`,
+        `-hls_base_url http://localhost:80/upload/${username}/output/`,
         `./upload/${username}/output/%v-${filename}.m3u8`
       ]);
       ffmpeg
@@ -287,10 +289,10 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
       let command = addCommand([`-y -i ./upload/${username}/input/${filename}`,
         `-map 0:v -map 0:v -map 0:v -map 0:v -map 0:a`,
         `-c:a aac -c:v ${outputCodec}`,
-        `-s:v:0 2560x1440 -b:v:0 8000k `,
-        `-s:v:1 1920x1080 -b:v:1 6000k `,
-        `-s:v:2 1280x720 -b:v:2 3000k `,
-        `-s:v:3 320x180 -b:v:3 80k `,
+        `-s:v:0 2560x1440 -b:v:0 8000k`,
+        `-s:v:1 1920x1080 -b:v:1 6000k`,
+        `-s:v:2 1280x720 -b:v:2 3000k`,
+        `-s:v:3 320x180 -b:v:3 80k`,
         `-profile:v:1 baseline -profile:v:2 baseline -profile:v:3 baseline -profile:v:0 main`,
         `-use_timeline 1`, 
         `-use_template 1`,
@@ -302,6 +304,8 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
       ffmpeg
       .run(command)
       .then(result => {
+        console.log(outputCodec);
+        console.log(result);
         let file = new File({
           username: username,
           file_upload: filename,
@@ -314,6 +318,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         });
       })
       .catch(err => {
+        console.log(outputCodec);
         writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!");
         res.json({ status: 0, message: "Convert file thất bại!"});
       });

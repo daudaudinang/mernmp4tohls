@@ -206,6 +206,10 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         outputCodec = 'libvpx-vp9';
       break;
 
+      case "h265" :
+        outputCodec = 'libx265';
+       break;
+      
       default:
         outputCodec = 'libx264';
     }
@@ -213,8 +217,6 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
     if (!existsSync("./upload/" + username)) mkdirp("./upload/" + username);
     if (!existsSync("./upload/" + username + "/input"))
       mkdirp("./upload/" + username + "/input");
-    if (!existsSync("./upload/" + username + "/segment"))
-      mkdirp("./upload/" + username + "/segment");
     if (!existsSync("./upload/" + username + "/output"))
       mkdirp("./upload/" + username + "/output");
 
@@ -246,7 +248,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         `-max_muxing_queue_size 4096`,
         `-hls_time 10`,
         `-hls_list_size 0`,
-        `-hls_segment_filename ./upload/${username}/segment/%v-${filename}-fileSequence%d.ts`,
+        `-hls_segment_filename ./upload/${username}/output/%v-${filename}-fileSequence%d.ts`,
         `-hls_base_url http://localhost:80/upload/${username}/segment/`,
         `./upload/${username}/output/%v-${filename}.m3u8`
       ]);
@@ -306,6 +308,8 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
       ffmpeg
       .run(command)
       .then(result => {
+        console.log(outputCodec);
+        console.log(result);
         let file = new File({
           username: username,
           file_upload: filename,
@@ -318,6 +322,7 @@ app.post("/uploadFile", authenToken, upload.single("video"), (req, res) => {
         });
       })
       .catch(err => {
+        console.log(outputCodec);
         writeLog("dataServer1",req.username,"error","Upload File","Convert file thất bại!\n" + err);
         res.json({ status: 0, message: "Convert file thất bại!"});
       });

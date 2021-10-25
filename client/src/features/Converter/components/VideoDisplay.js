@@ -211,7 +211,7 @@ function VideoDisplay({video}) {
             width="inherit"
             height="inherit"
             // url="tos-teaser.mp4"
-            url="https://bitmovin-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+            url="http://localhost:80/upload/admin@admin/output/1635094659714_tos-teaser.mp4-master.m3u8"
             controls={false}
             playing={state.playing}
             muted={state.muted}
